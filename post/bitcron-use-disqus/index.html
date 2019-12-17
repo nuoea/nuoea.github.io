@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+<title>Bitcron 科学使用 Disqus - 有呀</title>
+<meta name="description" content="什么都有一点">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link type='text/css' rel='stylesheet' href='https://nuoea.com/styles/main.css' media='screen' />
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src='https://nuoea.com/media/scripts/jquery.js'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+
+<script >hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+  <div class="layout">
+    <div class="layout-header">
+
+	<div class="layout-header-main">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+
+					<div class="navbar">
+
+						<div class="logo">
+							<a href="https://nuoea.com">
+								<img class="logo" src="https://nuoea.com/media/images/site_avatar.png?v=1576547184813"
+									alt="">
+							</a>
+						</div>
+
+						<div class="menu d-md-inline-block d-none">
+							<ul class="layout-navigation-list">
+								
+								<li class="layout-navigation-item"><a title="首页"
+										href="/">首页</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="关于"
+										href="/post/about">关于</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="归档"
+										href="/archives">归档</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="链接"
+										href="/links">链接</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						
+						<div class="item d-md-inline-block d-none">
+							<a class="btn" href="/atom.xml">
+								订 阅
+							</a>
+						</div>
+						
+
+						<div class="nav d-md-none d-inline-block">
+							<div class="trigger">
+								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+</div>
+    <div class="layout-collapse d-md-none">
+	<div class="layout-collapse-main">
+		<ul class="layout-collapse-list">
+			
+			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
+			
+			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
+			
+			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
+			
+			<li class="layout-collapse-item"><a title="链接" href="/links">链接</a></li>
+			
+
+		</ul>
+	</div>
+</div>
+
+    <div class="layout-content">
+      <div class="layout-content-main">
+        <div class="container">
+          <div class="row justify-content-lg-center">
+            <div class="col-12 col-lg-9">
+              <div class="layout-post">
+                <div class="layout-post-body">
+                  <div class="row">
+    
+                    <div class="col-md-12 col-lg-10">
+                      <div class="layout-post-main m-right m-md-right">
+                        <div class="layout-post-header">
+                          <h1 class="layout-post-title">Bitcron 科学使用 Disqus</h1>
+                          <div class="layout-post-meta">
+                            <div class="item">
+                               <a href="https://nuoea.com/tag/making" class="post--keyword"
+                                data-title="折腾" data-type="post_tag" data-term-id="39">折腾</a>
+                              
+                            </div>
+                            <div class="item">
+                              <span>2018-10-17</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="layout-post-content">
+                          <div class="layout-post-item">
+                             
+                              <p class="with-img"><img src="https://cdn.nuoea.com/18-10-17/1.png" class="attachment-full size-full wp-post-image" alt="Bitcron 科学使用 Disqus" /></p>
+                            
+                            <h2 id="前言">前言</h2>
+<p>其实说到评论，老实讲 Bitcron 自带的评论还算好用，简单明了，该有的功能也都有。访问速度也没有问题。只是对于 Bitcron 来讲，所有的评论都是以一个个单独的 csv 文件的形式存在，然后存放在一个叫做 -comment 的文件夹里。从别的地方导入进来吧，很容易。但是想导出去好像我还没有找到办法。</p>
+<!-- more -->
+<p>于是，思来想去就想换了。但是现在能用的不多，好用的插件，要么就关闭服务了，要么就被挡住了。直到昨天，逛到朋友的站，讲到了可以科学的使用Disqus，利用 API 可以愉快的在圈内玩耍。立马就被种草了。</p>
+<h2 id="过程">过程</h2>
+<p>翻了教程，整个项目跑下来其实不难，制作这个项目的大神在 Github 里面其实已经说的很详细了。我就记录一下在 Bitcron 中使用这个项目的关键点。</p>
+<ul>
+<li>因为 Bitcron 是静态托管服务，所以如果想使用这个项目，你需要一台支持 PHP 的境外主机，国内的不行。</li>
+<li>对于主机的PHP版本有要求，不能低于 5.6+</li>
+<li>因为 Bitcron 默认是开启 SSL 服务的。所以存放项目文件的链接也要开启 SSL 服务，不然会有跨域的报错问题。</li>
+<li>Bitcron 预留了 第三方评论的设置接口。直接在  Dashboard - 呈现 中 粘贴前端代码就可以。</li>
+</ul>
+<h2 id="最后">最后</h2>
+<p>贴上大神的网址：</p>
+<blockquote>
+<p><a href="https://blog.fooleap.org/">fooleap</a></p>
+</blockquote>
+<p>以及项目的 Githu 地址：</p>
+<blockquote>
+<p><a href="https://github.com/fooleap/disqus-php-api">Disqus-php-api</a></p>
+</blockquote>
+<p>有兴趣的小伙伴可以折腾一下。</p>
+
+                          </div>
+                        </div>
+                        <div class="layout-post-social">
+                          <div class="layout-social-item">
+                            <div id="/post/bitcron-use-disqus/" class="leancloud-visitors view"
+                              data-flag-title="Bitcron 科学使用 Disqus">
+                              <span class="post-meta-item-text">阅读 </span>
+                              <span class="leancloud-visitors-count"></span>
+                            </div>
+                          </div>
+                        </div>
+    
+                        <div class="layout-post-navigation">
+                          <div class="row">
+                            
+                            <div class="post-card col-6">
+                              <a href="https://nuoea.com/post/recommend-free-host-youjiazhuji" class="post-link">
+                                <div class="thumb" style="background-image: url('https://cdn.nuoea.com/18-10-18/1.png');"></div>
+                                <span class="btn-prev"><i class="fa fa-angle-left" aria-hidden='true'></i></span>
+                                <div class="thumb-mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-card col-6">
+                              <a href="https://nuoea.com/post/rocket-new-season" class="post-link">
+                                <div class="thumb" style="background-image: url('https://cdn.nuoea.com/18-11-22/33499569.jpg');"></div>
+                                <span class="btn-next"><i class="fa fa-angle-right" aria-hidden='true'></i></span>
+                                <div class="thumb-mask"></div>
+                              </a>
+                            </div>
+                            
+                          </div>
+                        </div>
+    
+                        <div class="layout-comments"></div>
+                        
+                        <script type="text/javascript" src='https://nuoea.com/media/scripts/zan.js'></script>
+<script type="text/javascript" src='https://nuoea.com/media/scripts/av-min.js'></script>
+<script type="text/javascript" src='https://nuoea.com/media/scripts/Valine.min.js'></script>
+
+<script>
+  var valine = new Valine();
+  valine.init({
+    el: '.layout-comments',
+    appId: 'e7hSFIsJCyJg2uaQaYDWtesc-MdYXbMMI',
+    appKey: 'LsdlyJ6vfXjJAk3JYASt5KJ4',
+    notify: false,
+    verify: false,
+    visitor: true,
+    avatar: 'mp',
+    placeholder: '加入讨论...'
+  })
+</script>
+                        
+                      </div>
+                    </div>
+    
+                    <div class="col-md-12 col-lg-2 d-none d-lg-block">
+                      <div class="layout-post-sidebar">
+                        <div class="layout-sidebar-item">
+                          <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%89%8D%E8%A8%80">前言</a></li>
+<li><a href="#%E8%BF%87%E7%A8%8B">过程</a></li>
+<li><a href="#%E6%9C%80%E5%90%8E">最后</a></li>
+</ul>
+</li>
+</ul>
+
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+
+    	<div class="layout-footer">
+
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+					<div class="footer">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="footer-copy">
+									
+									<span>© 2016 </span>
+									<a href="https://nuoea.com" title="有呀">有呀</a>
+									<span class="px-2">⋅</span>
+									
+									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> And <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">又拍云</a>
+									<span class="px-2">⋅</span>
+									
+									<span>鄂ICP备16014179号 </span>
+									
+								</div>
+							</div>
+							<div class="col-sm-3 d-none d-md-block">
+								<div class="footer-links">
+									
+									
+									
+									
+									<span class="footer-links-item">
+										<a href="https://github.com/insdram" target="_blank">
+											<i class="fa fa-github" aria-hidden="true"></i>
+										</a>
+									</span>
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src='https://nuoea.com/media/scripts/main.js'></script>
+	
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?b38914af394e7e51bb959b2a1cf39db4";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	
+
+  </div>
+</body>
+
+</html>

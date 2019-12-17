@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nuoea.com</id>
+    <title>有呀</title>
+    <updated>2019-12-17T05:03:58.964Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://nuoea.com"/>
+    <link rel="self" href="https://nuoea.com/atom.xml"/>
+    <subtitle>什么都有一点</subtitle>
+    <logo>https://nuoea.com/images/avatar.png</logo>
+    <icon>https://nuoea.com/favicon.ico</icon>
+    <rights>All rights reserved 2019, 有呀</rights>
+    <entry>
+        <title type="html"><![CDATA[折叠屏会是智能设备的下一个形态么]]></title>
+        <id>https://nuoea.com/post/folding-screens-next-phone</id>
+        <link href="https://nuoea.com/post/folding-screens-next-phone">
+        </link>
+        <updated>2019-11-23T08:19:56.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>在近日的 <code>显示技术与应用展</code> 上，国产厂商 <code>Visionox</code> 可以说是意气风发，风头无两。其在展会期间展出的下一代动态卷曲全模组AMOLED显示屏让人惊艳无比。维信诺表示，卷曲屏作为柔性AMOLED的“进化级”技术，将是折叠屏的下一阶形态，可在扩展显示面积的同时大幅减少终端产品体积。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>在近日的 <code>显示技术与应用展</code> 上，国产厂商 <code>Visionox</code> 可以说是意气风发，风头无两。其在展会期间展出的下一代动态卷曲全模组AMOLED显示屏让人惊艳无比。维信诺表示，卷曲屏作为柔性AMOLED的“进化级”技术，将是折叠屏的下一阶形态，可在扩展显示面积的同时大幅减少终端产品体积。</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-25/2.jpg" alt=""></figure>
+<center>Visionox 展出的折叠屏设备</center>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/19-11-25/3.gif" alt=""></figure>
+<center>Visionox 展出的折叠屏手机</center>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nuoea.com/19-11-25/4.gif" alt=""></figure>
+<center>Visionox 展出的卷曲屏设备</center>
+<p>看到这个消息，我当然是很激动的。因为我们都知道，内容的形式是依托与硬件的边界的。当你的网速只有2G/3G的时候，微信就称为最常用的社交工具。但是当你的网速提升到了4G，或者说现在的5G的时候，那么抖音快手或者下一个某某某就出现了，对吧。屏幕也是如此。当你的屏幕只有4寸或者6寸的大小的时候。我们不得不为了如此小的屏幕去适配我们的内容，去优化我们的展现方式，去让阅览者有一个更好的阅读体验。但是屏幕变大了之后呢？我们可不可以拥有更多的交互模式？拥有更完美的阅读体验？从而产生更多的优质内容呢？我相信答案是肯定的。</p>
+<h2 id="想法">想法</h2>
+<p>其实从这几年智能设备的发展来看，我相信大家都会有一个共同的认知，就是ID设计越来越一致，屏幕越来越大。设备的集成度越来越高。但是给人整体感受却在倒退。厂商们也很为难，在如此狭小的空间内，放入更多的元器件，大家都想要更大的屏幕，更大的电池，更好的相机，更完整的体验，却只能在尺寸，在重量，在外观设计方面做妥协。所以不知道你们有没有发现：</p>
+<blockquote>
+<p>我们现在的设备，越来越不像我们最初赋予它的形态了。</p>
+</blockquote>
+<p>手机变得越来越像一块平板，又大又重，我们使用它需要双手操作，因为一个手根本把持不住。我们的手表慢慢的变成了手机。不仅可以追踪我们的一切数据、可以打电话、可以回复信息、可以听歌，也可以装APP。而我们的平板越来越像一个生产力工具。可以接键盘鼠标，可以码字修图轻办公，完全不像是一个泡面神器应该有的样子。我们熟悉的已经逐渐形成认知的这些设备，正在慢慢的一个又一个的变成我们陌生的样子。这真的是一件好事么？或者说，这种变化真的是我们需要的么？我们真的需要一个能打电话的手表么？我们真的需要一台重到我们自己都不想拿在手里的手机么？我们真的需要给我们的平板配上键盘和鼠标么？如果设备形态的升级不能带给我们体验的提升，反而一味的妥协，那真的是一种升级么？</p>
+<h2 id="最后">最后</h2>
+<p>但是折叠屏以及这次展出的卷曲屏让我看到了这种思路的转变。它代表着制造者已经开始看到这种需求以及与之产生的冲突。总归来说是一件好事吧。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackintosh 安装全攻略]]></title>
+        <id>https://nuoea.com/post/hackintosh-install-strategy</id>
+        <link href="https://nuoea.com/post/hackintosh-install-strategy">
+        </link>
+        <updated>2019-11-21T15:15:16.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>感觉现在已经离不开 <code>macOS</code> 了。因为手里的这台15款的Macbook Pro 什么都好，就是性能已经慢慢的跟不上我的要求，所以折腾了一台 Hackintosh ，配置之前也发出来了--<a href="https://nuoea.com/post/asrock-itx-hackintosh/">我的配置</a>。然后就有小伙伴要求写个教程。我就想整理一下，尽可能全面的从硬件的选购到整个装机点亮的过程都记录下来。希望可以给想折腾的小伙伴一点参考。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>感觉现在已经离不开 <code>macOS</code> 了。因为手里的这台15款的Macbook Pro 什么都好，就是性能已经慢慢的跟不上我的要求，所以折腾了一台 Hackintosh ，配置之前也发出来了--<a href="https://nuoea.com/post/asrock-itx-hackintosh/">我的配置</a>。然后就有小伙伴要求写个教程。我就想整理一下，尽可能全面的从硬件的选购到整个装机点亮的过程都记录下来。希望可以给想折腾的小伙伴一点参考。</p>
+<!-- more -->
+<h2 id="硬件指南">硬件指南</h2>
+<p>选对的合适的硬件，那么 <code>Hackintosh</code> 就已经成功了90%以上。选对硬件，意味着安装时可以少走弯路，新手也能很轻松的折腾，不仅可以节省大量的时间成本，而且在使用的过程中也可以获得更加完整、稳定的体验。升级起来，也不需要每次都费劲功夫的折腾驱动，非常省心。</p>
+<p>就目前而言，能够比较稳定使用的配置是：</p>
+<ul>
+<li>Intel 1151针的 第八代、第九代酷睿处理器。<code>免驱</code></li>
+<li>市面上主流的华硕、技嘉、华擎、微星主板。<code>缩水版除外</code></li>
+<li>AMD 的Radeon VII系列、Vega系列、RX系列显卡。<code>免驱</code></li>
+<li>主流 M.2接口支持NVME协议的固态硬盘。<code>免驱</code></li>
+<li>4k分辨率、5k分辨率的显示器。<code>体验最好</code></li>
+<li>苹果Mac拆机或者同款的蓝牙WiFi二合一无线网卡。<code>免驱</code></li>
+<li>主流的DDR4内存条。<code>越大越好</code></li>
+<li>电源机箱别贪便宜，特别是电源千万不能缩水。<code>功率要足</code></li>
+</ul>
+<p>基本上 Hackintosh 的配置就从上面的选购指南中挑选就行了，只要不买一些冷门小众的品牌，不会有太大的问题。当然也会有人说，我不喜欢AMD的显卡，我就想用英伟达的显卡做双系统可不可以。答案是可以。但是英伟达的显卡目前不支持升级到 <code>MacOS Mojave 10.14.0</code>以上。只能停留在 <code>10.13.6</code> 这个版本。所以不介意自己不能使用最新版的同学可以选择N卡。</p>
+<h2 id="前期准备">前期准备</h2>
+<ul>
+<li>进入主板BIOS设置，将”安全启动”关闭,将”传统模式”打开。</li>
+<li>一个空白的U盘，8G以上的容量。</li>
+<li>一个已经制作好带CLover引导工具的安全镜像（.dmg格式）。这里提供一个10.14.6的镜像--<a href="https://pan.baidu.com/s/1yx7A_wlfepp6ybTCRcz4cg">下载提取码：qrwt</a></li>
+<li>Win 平台需要镜像写入软件：TransMac。</li>
+<li>Mac 平台需要镜像写入软件：Etcher。</li>
+</ul>
+<h2 id="写入镜像">写入镜像</h2>
+<h3 id="win-平台">Win 平台</h3>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-21/2.jpg" alt=""></figure>
+<p>写入镜像</p>
+<ul>
+<li>打开 <code>TransMac</code> 软件，插入空白U盘。</li>
+<li>右键单击U盘 选 <code>Format Disk For Mac</code> 格式化U盘。</li>
+<li>然后再次右键单击U盘，选中 <code>Restore with Disk Image</code> ，然后选择下载好的安装镜像写入U盘。</li>
+</ul>
+<h3 id="mac-平台">Mac 平台</h3>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/19-11-21/3.png" alt=""></figure>
+<p>写入镜像</p>
+<ul>
+<li>打开 <code>Etcher</code> 软件。插入空白U盘。</li>
+<li>在 <code>Etcher</code> 中选中自动识别出来的U盘，点击 <code>Flash</code> 即可。</li>
+</ul>
+<p>制作好了安装U盘之后，就可以开始正式安装了。</p>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nuoea.com/19-11-21/4.png" alt=""></figure>
+<p>clover 引导工具界面</p>
+<ul>
+<li>首先重启电脑。</li>
+<li>插入已经写好镜像的U盘。开机选择从U盘启动。这个时候我们会进入到 <code>clover</code> 的引导界面。</li>
+<li>移动光标到 <code>Boot OS X Install</code> 安装盘。然后敲击 <code>空格键</code> 。</li>
+<li>用方向键与回车选中 <code>Verbose(-v)</code> 。</li>
+<li>再用方向键和回车选择 <code>Boot macOS with selected options</code> 。</li>
+<li>等待进入安装界面。</li>
+</ul>
+<h2 id="安装详细">安装详细</h2>
+<figure data-type="image" tabindex="4"><img src="https://cdn.nuoea.com/19-11-21/5.png" alt=""></figure>
+<p>语言选择</p>
+<figure data-type="image" tabindex="5"><img src="https://cdn.nuoea.com/19-11-21/6.png" alt=""></figure>
+<p>出现macOS实用工具界面,选择磁盘工具</p>
+<figure data-type="image" tabindex="6"><img src="https://cdn.nuoea.com/19-11-21/7.png" alt=""></figure>
+<p>选择 <code>SSD</code>,点击抹掉按钮,选择默认的 <code>Mac OS扩展(日志型)</code> ,将名称修改为 <code>Macintosh HD</code> ,点击 <code>抹掉</code> 按钮</p>
+<figure data-type="image" tabindex="7"><img src="https://cdn.nuoea.com/19-11-21/8.png" alt=""></figure>
+<p>抹盘成功后,它会自动生成一个200MB的EFI分区，用来存放我们的引导文件</p>
+<figure data-type="image" tabindex="8"><img src="https://cdn.nuoea.com/19-11-21/9.png" alt=""></figure>
+<p>到这里,磁盘工具的动作就已经结束了.退出磁盘工具进入安装界面,进行系统的安装了</p>
+<figure data-type="image" tabindex="9"><img src="https://cdn.nuoea.com/19-11-21/10.png" alt=""></figure>
+<p>进入安装界面</p>
+<figure data-type="image" tabindex="10"><img src="https://cdn.nuoea.com/19-11-21/11.png" alt=""></figure>
+<p>选择继续</p>
+<figure data-type="image" tabindex="11"><img src="https://cdn.nuoea.com/19-11-21/12.png" alt=""></figure>
+<p>点击同意,选择Macintosh HD</p>
+<figure data-type="image" tabindex="12"><img src="https://cdn.nuoea.com/19-11-21/13.png" alt=""></figure>
+<p>等它装完，期间会自动重启几次。在重启的时候还是要选择从U盘开机。选择继续安装。</p>
+<figure data-type="image" tabindex="13"><img src="https://cdn.nuoea.com/19-11-21/15.png" alt=""></figure>
+<p>大功告成！</p>
+<figure data-type="image" tabindex="14"><img src="https://cdn.nuoea.com/19-11-21/14.png" alt=""></figure>
+<h2 id="性能优化">性能优化</h2>
+<p>安装好了镜像，成功进入mac界面并不是结束。这个时候我们还需要替换适合自己硬件的EFI引导文件到系统的EFI分区，来驱动我们的硬件。</p>
+<p>这里有一份 Hackintosh 长期维护的机型名单，可以在上面找到适合自己的 EFI 文件夹。</p>
+<blockquote>
+<p><a href="https://github.com/daliansky/Hackintosh">长期维护名单</a></p>
+</blockquote>
+<p>打开终端,输入命令: <code>diskutil list</code> ,它会显示类似的信息:</p>
+<pre><code class="language-code">/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +8.0 GB     disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:                  Apple_HFS XiaoMiPro 10131         7.7 GB     disk4s2
+
+/dev/disk5 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +7.0 GB     disk5
+   1:                        EFI EFI                     209.7 MB   disk5s1
+   2:                  Apple_HFS XiaoMiPro 10131         6.7 GB     disk5s2
+</code></pre>
+<p>挂载EFI分区</p>
+<p>我们使用diskutil命令挂载EFI分区，例如这里是：<code>sudo diskutil mount disk5s1</code></p>
+<p>复制/替换EFI</p>
+<p>将下载好的EFI复制到系统SSD的EFI分区下即可。</p>
+<h2 id="最后">最后</h2>
+<figure data-type="image" tabindex="15"><img src="https://cdn.nuoea.com/19-11-21/16.jpg" alt=""></figure>
+<p>EFI目录的结构就是如此。主要的配置项都在 config.plist 文件中。kexts 目录存放的是驱动文件。如果按照给出的标准硬件去配置着台机器的话，其实绝大部分硬件都免驱了，我们只需要几个核心的驱动文件就可以了。</p>
+<ul>
+<li>Clover -- 引导工具 <a href="https://github.com/Dids/clover-builder/releases">下载地址</a></li>
+<li>Lilu -- 核心驱动 <a href="https://github.com/acidanthera/Lilu">下载地址</a></li>
+<li>WhateverGreen -- 显卡相关 <a href="https://github.com/acidanthera/WhateverGreen">下载地址</a></li>
+<li>AppleALC  -- 声卡相关 <a href="https://github.com/acidanthera/AppleALC/tree/master/">下载地址</a></li>
+<li>VirtualSMC  -- 核心驱动 <a href="https://github.com/acidanthera/VirtualSMC/releases">下载地址</a></li>
+</ul>
+<p>当然，如果已经在上面的 <code>长期维护的机型名单</code>中，找到了自己的配置。那么就不需要自己再去折腾这些了， 直接下载下来替换就能起飞了。就写到这里吧。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[平淡日子里的刺]]></title>
+        <id>https://nuoea.com/post/days-of-thorns</id>
+        <link href="https://nuoea.com/post/days-of-thorns">
+        </link>
+        <updated>2019-11-20T08:37:57.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="关于">关于</h2>
+<p>平淡日子里的刺，是电影《我想和你好好的》的主题曲，由韩寒填词，宋冬野谱曲并演唱。其曲调平缓流畅，但歌词却颇为扎心。算是宋冬野的佳作之一。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="关于">关于</h2>
+<p>平淡日子里的刺，是电影《我想和你好好的》的主题曲，由韩寒填词，宋冬野谱曲并演唱。其曲调平缓流畅，但歌词却颇为扎心。算是宋冬野的佳作之一。</p>
+<!-- more -->
+<h2 id="吉他谱">吉他谱</h2>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-20/1.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/19-11-20/2.jpg" alt=""></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea主题：Mao]]></title>
+        <id>https://nuoea.com/post/gridea-theme-mao</id>
+        <link href="https://nuoea.com/post/gridea-theme-mao">
+        </link>
+        <updated>2019-11-18T05:04:49.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="关于">关于</h2>
+<p>这是给一个朋友定制的主题。朋友提了一些需求，做完原型和飞机稿，看到效果感觉还挺满意的吧。想到最近折腾的 <code>Gridea</code> 非常好用，就用它实现了。后期应该还会继续优化。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="关于">关于</h2>
+<p>这是给一个朋友定制的主题。朋友提了一些需求，做完原型和飞机稿，看到效果感觉还挺满意的吧。想到最近折腾的 <code>Gridea</code> 非常好用，就用它实现了。后期应该还会继续优化。</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-18/6.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/19-11-18/5.jpg" alt=""></figure>
+<h2 id="设计">设计</h2>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nuoea.com/19-11-18/4.jpg" alt=""></figure>
+<p>给的需求关键词是<code>活泼</code>。就用这组清新的水果绿做了整个视觉的搭配。整体的代入感让人可以有一种回到夏天的清爽感。</p>
+<figure data-type="image" tabindex="4"><img src="https://cdn.nuoea.com/19-11-18/1.png" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="5"><img src="https://cdn.nuoea.com/19-11-18/2.png" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="6"><img src="https://cdn.nuoea.com/19-11-18/3.png" alt=""></figure>
+<h2 id="使用">使用</h2>
+<ul>
+<li>首页展示图片可以自定义，在主题自定义配置中可以配置图片链接，以方便更换。</li>
+<li>评论框使用的是 <code>valine</code> 。在主题的自定义配置项目中可以设置ID和KEY。特别感谢 <code>@林木木</code> 童鞋。</li>
+<li>页脚置入社交链接。根据自己的需要可以在自定义配置项中定义。</li>
+<li>less 所有颜色可自定义。</li>
+<li>待完善</li>
+</ul>
+<h2 id="最后">最后</h2>
+<p>希望 <code>Gridea</code> 越来越好～</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hi，Gridea]]></title>
+        <id>https://nuoea.com/post/hi-gridea</id>
+        <link href="https://nuoea.com/post/hi-gridea">
+        </link>
+        <updated>2019-11-15T01:32:33.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>耗时两天，从 Bitcron 搬到了 Gridea。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>耗时两天，从 Bitcron 搬到了 Gridea。</p>
+<!-- more -->
+<h2 id="关于">关于</h2>
+<p>Gridea 是一个船新的静态博客写作客户端，前两天看到 <code>@林木木</code> 在推荐。就好奇去喵了一下。结果却看越喜欢。发现这货简直神器，不但解决了很多静态博客前辈们的痛点，而且自身的特性一大堆：</p>
+<ul>
+<li>支持 MarkDown</li>
+<li>自定义标签</li>
+<li>跨设备</li>
+<li>多平台</li>
+<li>不断完善。。。</li>
+</ul>
+<h2 id="踩坑">踩坑</h2>
+<p>在折腾 Gridea 的这两天，还是遇到了不少的问题：</p>
+<ul>
+<li>导入之前的文章似乎有 <code>BUG</code> 。导入不识别的文章，会导致整个客户端刷不出数据，呈崩溃状态。</li>
+<li>设置了 cname 域名之后，客户端中的访问域名没有改，导致所有 JS 资源全部 403</li>
+<li>似乎现在还不能通过 ejs 生成 单独的页面</li>
+<li>官方的文档资源还可以更多一点</li>
+</ul>
+<h2 id="最后">最后</h2>
+<p>其实作为一个才起步的程序，其完整程度已经做的很好，该有的基本都有了。而支持 Github 和 Coding 两个平台确实很友好，我在使用的过程中才发现 <code>Coing</code> 已经全部迁移到了腾讯云。好坏都有吧，好的是速度更快，也更稳定了，坏的可能就是国内的一大堆政策吧。希望以后支持更多的资源，持续看好！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发一个 Office 365 家庭版的车]]></title>
+        <id>https://nuoea.com/post/office-365</id>
+        <link href="https://nuoea.com/post/office-365">
+        </link>
+        <updated>2019-11-11T02:47:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="说明">说明</h2>
+<p>发一个自用Office 365 家庭版的车，Office 365 是微软推出的办公软件订阅计划，包含了完整的 Office 应用程序（最新版 Word、Excel、PowerPoint、Outlook、Publisher、Access）以及 1TB 云存储空间的 OneDrive 服务。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="说明">说明</h2>
+<p>发一个自用Office 365 家庭版的车，Office 365 是微软推出的办公软件订阅计划，包含了完整的 Office 应用程序（最新版 Word、Excel、PowerPoint、Outlook、Publisher、Access）以及 1TB 云存储空间的 OneDrive 服务。</p>
+<!-- more -->
+<p>家庭版的微软官方价格是498元/年。这次因为正好赶上活动，所以入手价格还是很划算的，最终价格是249 元/年（6人，每人5台设备，每人1T空间），平均1个人只需要 249 ÷ 6 = 41元</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-11/2.jpg" alt=""></figure>
+<h2 id="动态">动态</h2>
+<ul>
+<li>已经有一个小伙伴上车了。还有四个位置。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[奇葩说第六季了，可是依然好看到炸裂]]></title>
+        <id>https://nuoea.com/post/you-can-u-bb</id>
+        <link href="https://nuoea.com/post/you-can-u-bb">
+        </link>
+        <updated>2019-11-09T05:21:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>《奇葩说》第六季10月31日回归爱奇艺，节目第一期播出之后，豆瓣评分：8.6。这个分数其实在国综里面不算太高，但是当一档综艺办到第六季还能有这个分数，反正我是没见过。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>《奇葩说》第六季10月31日回归爱奇艺，节目第一期播出之后，豆瓣评分：8.6。这个分数其实在国综里面不算太高，但是当一档综艺办到第六季还能有这个分数，反正我是没见过。</p>
+<!-- more -->
+<p>看完第一期之后我才明白，也不得不感叹，这档节目之所以这么好看，这么受人喜欢，不是没有原因的啊。其原因可能正如毒Sir所说：</p>
+<blockquote>
+<p>这档综艺做了六季，它竟然还在成长。</p>
+</blockquote>
+<p>所以马东说想把奇葩说一季一季做下去，其信心来源，也正是这档综艺过硬的品质和内容吧。</p>
+<h2 id="话题">话题</h2>
+<p>其实前几季奇葩说让人印象深刻的，除了那几位BBKing以及燃到炸裂的辩论赛场之外，就是节目所流出的八卦种种，经常在微博热搜成为大家茶余饭后的谈资。</p>
+<p>其实就我个人来看，很多的话题性其实是拉低了整个奇葩说的这个口碑的。比如说：</p>
+<ul>
+<li>第三季马薇薇在节目中高调宣告恋情，撕逼周玄毅前妻</li>
+<li>第四季抱团老僵尸撕姜思达</li>
+<li>第五季，董婧、傅首尔后台打架</li>
+<li>第五季董婧表白邱晨被拒</li>
+</ul>
+<p>等等这些，让奇葩说似乎成为了一个提供各种新鲜八卦以及在没什么可说的无聊话题上找角度硬说的娱乐节目。但是我还是觉得输出想法和好的价值观才是这个节目应该做的，并且是这个节目最好看地方。而前面几季，为了炒热度，为了制造话题，牺牲了这些。</p>
+<p>但是好在，第六季。我看到了这种改变。</p>
+<h2 id="看点">看点</h2>
+<p>陈铭、马薇薇缺席确实是一大遗憾。但是我发现这一季的选手整体水准都更强了。看点颇多:</p>
+<ul>
+<li>蔡康永、薛兆丰、罗振宇、李诞四位导师这一次要亲自带队打比赛</li>
+<li>所有老奇葩的回炉重造，从1/2生存战开始打怪升级</li>
+<li>更多有实力的新人、更残酷的赛制等</li>
+</ul>
+<h2 id="最后">最后</h2>
+<p>其实追了这档综艺这么多年，感触最深的就是它会在不知不觉中影响自己。小到一档节目，大到这个社会，辩论与对抗当然是主体。但是在对抗之外的那些炙热的情感、那些分享和成长，大概就是人生最珍贵的东西吧。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一组扁平风矢量插画设计]]></title>
+        <id>https://nuoea.com/post/flat-illustration-design</id>
+        <link href="https://nuoea.com/post/flat-illustration-design">
+        </link>
+        <updated>2019-11-08T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="详情">详情</h2>
+<p><photo><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""></photo></p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="详情">详情</h2>
+<p><photo><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""><img src="https://cdn.nuoea.com/19-11-8/7.jpg" alt=""></photo></p>
+<!-- more -->
+<h2 id="关于">关于</h2>
+<p>通过圆形作为构图框架，可以让插画设计更易构图，内容能够丰富饱满，是作为插画学习的入门之一。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米手表香的起来么？]]></title>
+        <id>https://nuoea.com/post/about-xiaomi-watch</id>
+        <link href="https://nuoea.com/post/about-xiaomi-watch">
+        </link>
+        <updated>2019-11-06T02:31:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="发布">发布</h2>
+<p>昨天下午14点整，小米正式发布了这款最近炒的火热的产品。整个发布会看下来，其实个人还是很赞同小米对智能手表的定义的，其有别于手环，它不应该仅仅只是一个用来看自己各项运动数据的配件，而应该是一个独立的，从某种程度上可以代替手机的这样一个东西。只是这个外观，真的是一言难尽。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="发布">发布</h2>
+<p>昨天下午14点整，小米正式发布了这款最近炒的火热的产品。整个发布会看下来，其实个人还是很赞同小米对智能手表的定义的，其有别于手环，它不应该仅仅只是一个用来看自己各项运动数据的配件，而应该是一个独立的，从某种程度上可以代替手机的这样一个东西。只是这个外观，真的是一言难尽。</p>
+<!-- more -->
+<h2 id="优势">优势</h2>
+<table>
+<thead>
+<tr>
+<th>特点</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>独立eSIM虚拟卡</td>
+<td>能打电话，独立上网</td>
+</tr>
+<tr>
+<td>MIUI for Watch</td>
+<td>基于MIUI的手表生态系统</td>
+</tr>
+<tr>
+<td>十大运动模式</td>
+<td>FirstBeat 专业运动算法</td>
+</tr>
+<tr>
+<td>专业健康管理</td>
+<td>压力、睡眠、身体能量检测</td>
+</tr>
+<tr>
+<td>小爱同学智能助理</td>
+<td>100多种智能语音场景</td>
+</tr>
+<tr>
+<td>智能家居操控</td>
+<td>支持海量智能设备联动</td>
+</tr>
+<tr>
+<td>36H超长续航</td>
+<td>随时随地电量满满（感觉还是不够用）</td>
+</tr>
+<tr>
+<td>多功能NFC</td>
+<td>支持地铁公交、门禁卡</td>
+</tr>
+</tbody>
+</table>
+<h2 id="美图">美图</h2>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-10/2.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/19-11-10/3.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nuoea.com/19-11-6/2.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="4"><img src="https://cdn.nuoea.com/19-11-6/3.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="5"><img src="https://cdn.nuoea.com/19-11-6/4.jpg" alt=""></figure>
+<h2 id="后续">后续</h2>
+<p>不过也有消息说：小米内部准备了一款小米手表Pro（原型表盘），预计跟小米MIX4 一起发布。真的喜欢这个产品的童鞋不妨再等等。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[暴风播酷云黑群全攻略]]></title>
+        <id>https://nuoea.com/post/baofeng-synology-note</id>
+        <link href="https://nuoea.com/post/baofeng-synology-note">
+        </link>
+        <updated>2019-11-04T16:21:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>前段时间据说矿难，但具体有多惨我也不太清楚。只是闲鱼上多了很多所谓的矿机，真香的价格让我跟小伙伴们每人都入手了一台。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>前段时间据说矿难，但具体有多惨我也不太清楚。只是闲鱼上多了很多所谓的矿机，真香的价格让我跟小伙伴们每人都入手了一台。</p>
+<!-- more -->
+<p>具体配置如下：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>品牌型号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPU&amp;主板</td>
+<td>ASROCK J3455-ITX</td>
+</tr>
+<tr>
+<td>内存</td>
+<td>DDR3 8G</td>
+</tr>
+<tr>
+<td>SSD</td>
+<td>威刚 64G</td>
+</tr>
+<tr>
+<td>HDD</td>
+<td>WD40EJRX 西数4T X 2</td>
+</tr>
+<tr>
+<td>网络接口</td>
+<td>千兆以太网卡</td>
+</tr>
+<tr>
+<td>功耗</td>
+<td>约25W</td>
+</tr>
+</tbody>
+</table>
+<p>这个配置还是非常不错的，和群晖918+一样的配置让其拿来做黑群是非常不错的选择。所以机器到了之后，就折腾了一番，几个月用下来，感觉真的超值。</p>
+<h2 id="前期准备">前期准备</h2>
+<ul>
+<li>安装黑群晖的主机一台</li>
+<li>SSD固态硬盘一块</li>
+<li>WinPE U盘一枚</li>
+<li>黑群晖二合一安装文件</li>
+<li>Roadkil's DiskImage 工具（用于写入系统镜像到硬盘）</li>
+<li>DiskGenius 硬盘分区工具</li>
+</ul>
+<h2 id="安装">安装</h2>
+<ul>
+<li>清除固态硬盘所有分区</li>
+</ul>
+<p>进入WinPE之后，使用硬盘工具DiskGenius将目标固态硬盘所有分区删除然后保存。</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-4/11.jpg" alt=""></figure>
+<ul>
+<li>写入黑群晖二合一安装文件到固态硬盘</li>
+</ul>
+<p>打开Roadkil's DiskImage软件。选择下载好的安装文件和选择好硬盘。这里要注意一定不要写错了。</p>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/19-11-4/10.jpg" alt=""></figure>
+<ul>
+<li>使用</li>
+</ul>
+<p>接通电源开机，通过群晖助手或者浏览器输入http://find.synology.com查找群辉机器。就可以正常使用了。</p>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nuoea.com/19-11-4/12.jpg" alt=""></figure>
+<h2 id="资源">资源</h2>
+<blockquote>
+<p><a href="https://pan.baidu.com/s/16NNJkV2zn_bS_qC80KcHbA">点我下载 ( 提取码：3bix )</a></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[组了一台 ITX 的黑苹果]]></title>
+        <id>https://nuoea.com/post/asrock-itx-hackintosh</id>
+        <link href="https://nuoea.com/post/asrock-itx-hackintosh">
+        </link>
+        <updated>2019-11-03T16:34:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="hackintosh">Hackintosh</h2>
+<p>其实攒这台机器的初心主要是手里的Macbook Pro 2015 性能越来越吃紧了。但是工作的需要，对于机器性能的需求却越来越多。看了下白果劝退的定价，果断还是选择 Hackintosh 了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="hackintosh">Hackintosh</h2>
+<p>其实攒这台机器的初心主要是手里的Macbook Pro 2015 性能越来越吃紧了。但是工作的需要，对于机器性能的需求却越来越多。看了下白果劝退的定价，果断还是选择 Hackintosh 了。</p>
+<!-- more -->
+<p>其实现在的 Hackintosh 早已不是以前的小众选择。正如知乎上的一位知友所说：</p>
+<blockquote>
+<p>如果你需要一台高性能的Mac，那么 Hackintosh 可能是现阶段最好的选择。</p>
+</blockquote>
+<p>对于从事开发和设计工作的人来说，Mac 流畅的体验和成熟的交互确实让人省心，作为长期使用Mac办公的人来说，这可能就是用了就回不去的一种体验。</p>
+<h2 id="配置">配置</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>品牌型号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPU</td>
+<td>Intel i7 8700</td>
+</tr>
+<tr>
+<td>主板</td>
+<td>华擎 Z390 Phantom Gaming itx/ac</td>
+</tr>
+<tr>
+<td>散热</td>
+<td>猫头鹰（NOCTUA）NH-L9i</td>
+</tr>
+<tr>
+<td>内存</td>
+<td>金士顿骇客神条 8G x 2</td>
+</tr>
+<tr>
+<td>SSD</td>
+<td>西部数据 SN500 500G</td>
+</tr>
+<tr>
+<td>机箱</td>
+<td>追风者 MG210 ITX 侧透 RGB</td>
+</tr>
+<tr>
+<td>电源</td>
+<td>海盗船 SF600 SFX</td>
+</tr>
+<tr>
+<td>无线/蓝牙</td>
+<td>博通 BCM94360CS2</td>
+</tr>
+<tr>
+<td>显卡</td>
+<td>蓝宝石 RX580 超白金</td>
+</tr>
+<tr>
+<td>显示器</td>
+<td>LG 27UL600 4k HDR400 IPS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="兼容情况">兼容情况</h2>
+<blockquote>
+<p>使用完美</p>
+</blockquote>
+<pre><code>- macOS 版本
+    - 10.14.4
+    - 10.14.5
+    - 10.14.6
+- 显卡（DisplayPort 接显示器）
+    - Intel UHD630 核显
+    - AMD RX580
+- 声卡(Realtek ALC1220)
+    - 主板后置
+    - 机箱前置
+    - DisplayPort 声音输出
+- 睡眠/唤醒
+- 有线网卡
+- 无线WI-FI
+- 蓝牙
+    - 耳机
+    - Trackpad 2
+    - Airdrop
+    - Handoff
+- 所有 USB 插口
+
+</code></pre>
+<blockquote>
+<p>使用不完美</p>
+</blockquote>
+<pre><code>- 雷电 3 接口
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-4/7.jpg-s" alt=""></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于免费通配符证书]]></title>
+        <id>https://nuoea.com/post/lets-encrypt-ssl</id>
+        <link href="https://nuoea.com/post/lets-encrypt-ssl">
+        </link>
+        <updated>2019-11-01T05:50:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="说明">说明</h2>
+<p>Let's Encrypt 是国外一个公共的免费SSL项目，由 Linux 基金会托管，它的来头不小，由 Mozilla、思科、Akamai、IdenTrust 和 EFF 等组织发起，目的就是向网站自动签发和管理免费证书，以便加速互联网由 HTTP 过渡到 HTTPS，目前 Facebook 等大公司开始加入赞助行列。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="说明">说明</h2>
+<p>Let's Encrypt 是国外一个公共的免费SSL项目，由 Linux 基金会托管，它的来头不小，由 Mozilla、思科、Akamai、IdenTrust 和 EFF 等组织发起，目的就是向网站自动签发和管理免费证书，以便加速互联网由 HTTP 过渡到 HTTPS，目前 Facebook 等大公司开始加入赞助行列。</p>
+<!-- more -->
+<p>Let's Encrypt 已经得了 IdenTrust 的交叉签名，这意味着其证书现在已经可以被 Mozilla、Google、Microsoft 和 Apple 等主流的浏览器所信任，用户只需要在 Web 服务器证书链中配置交叉签名，浏览器客户端会自动处理好其它的一切，Let's Encrypt 安装简单，使用非常方便。</p>
+<h2 id="使用-certbot">使用 certbot</h2>
+<ul>
+<li>1、获取工具</li>
+</ul>
+<pre><code>wget https://dl.eff.org/certbot-auto
+chmod a+x certbot-auto
+</code></pre>
+<ul>
+<li>2、获取证书</li>
+</ul>
+<pre><code>./certbot-auto certonly  -d 你的域名 -d *.你的域名 --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory
+</code></pre>
+<ul>
+<li>3、配置解析<br>
+Certbot 要求给域名配置一条 TXT 记录，在没有确认 TXT 记录生效之前不要回车执行。配置好之后就可以看到证书文件被生成。剩下的只需要通过SCP等方法下载就好了。</li>
+<li>4、重要说明<br>
+上述有三个交互式的提示：</li>
+</ul>
+<blockquote>
+<p>是否同意 Let's Encrypt 协议要求<br>
+询问是否对域名和机器（IP）进行绑定<br>
+输入邮箱，给你发送一封验证邮件<br>
+确认同意才能继续。</p>
+</blockquote>
+<ul>
+<li>5、证书更新<br>
+证书有效期为三个月，到期之前需要更新证书，更新流程就是重新执行一遍上面的操作，新证书会在你申请证书的日期上加三个月。</li>
+</ul>
+<h2 id="使用-freessl">使用 <a href="https://freessl.cn/">Freessl</a></h2>
+<p>Freessl 是一个申请免费证书的网站，如果觉得自己敲代码太麻烦，可以使用这个网站获取SSL证书。网站提供TrustAsia和Let's Encrypt两种证书选择。获取证书的操作也比较的简单，按照步骤一直下一步就可以了，没有什么学习成本。<br>
+值得一提的是，通过网站获取的通配符证书有效期也是三个月。如果到期之后，网站也提供了自动续期的功能，不过是需要收费的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[整站图床更换]]></title>
+        <id>https://nuoea.com/post/replace-image-space</id>
+        <link href="https://nuoea.com/post/replace-image-space">
+        </link>
+        <updated>2018-11-23T09:09:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>认真算起来，好久没有码字了。其实最近也不算忙，有点时间吧就喜欢折腾。最近搞了几个便宜VPS，从 <code>OneIndex</code> 开始，把几乎所有自搭网盘的程序都玩了一遍。比如说还在开发的 <code>Cloudreve</code>、口碑比较好的 <code>Nextcloud</code> 以及 <code>Seafile</code> 。都装着体验了一把。发现体验最好的是 <code>Seafile</code> 。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>认真算起来，好久没有码字了。其实最近也不算忙，有点时间吧就喜欢折腾。最近搞了几个便宜VPS，从 <code>OneIndex</code> 开始，把几乎所有自搭网盘的程序都玩了一遍。比如说还在开发的 <code>Cloudreve</code>、口碑比较好的 <code>Nextcloud</code> 以及 <code>Seafile</code> 。都装着体验了一把。发现体验最好的是 <code>Seafile</code> 。</p>
+<!-- more -->
+<h2 id="seafile">Seafile</h2>
+<p>这个程序在百度一搜，推荐的人有大把。安装也很简单。官方Github上有个SNAP一键安装包。SSH连上主机代码贴上去几分钟就给你搞好了。说说这个程序的优点：</p>
+<ul>
+<li>稳定</li>
+<li>安全</li>
+<li>方便</li>
+</ul>
+<p>稳定就不多说了，毕竟运行了这么多年。安全方面，因为是加密存储，所以挂载的文件目录上是看不到任何文件列表的。有利有弊吧。就安全来说，绝对是挺值得推荐的。再说方便，丰富的客户端是必须的。而且还支持 <code>WebDAV</code> 协议，管理文件挺方便。</p>
+<p>整个程序用下来，觉得体验真的蛮好的。因为便宜VPS容量一般都不大，挂载OSS等对象存储一个是需要专业版，在一个收费也不便宜。所以都有想在家里的linux主机上布一个本地的服务，然后通过内网穿透解析道外网域名访问。所以又跑去看内网穿透。</p>
+<h2 id="frp">FRP</h2>
+<p>FRP是一个开源的内网穿透服务，有个VPS就能架服务器，原理也蛮简单。VPS上放一个服务端。Linux主机上放一个客户端。通过端口映射来达到公网IP + 对应端口来访问内网地址。有兴趣的小伙伴可以研究。</p>
+<blockquote>
+<p><a href="https://github.com/fatedier/frp">FRP</a></p>
+</blockquote>
+<p>值得一提的是，如果路由器可以刷 <code>openwrt</code> 等固件的话，可以吧 <code>FRP</code> 客户端放在路由器上。体验就更好了。</p>
+<h2 id="图床">图床</h2>
+<p>不过 <code>Seafile</code> 这个程序用来做网盘存放文件确实是蛮好的。但是如果用来做图床还是不行。本来我的图床一直是用的七牛云，速度也挺快，免费空间也有个10G。用着一直挺好的。不过前两天看V站大佬们讨论。说是七牛云的CDN没有阀值设置，万一被恶意攻击，一晚上可能就要卖一套海景别墅。看的我是一身冷汗。有相应阀值设置的对象存储服务比如说良心云的OSS收费又太贵。</p>
+<p>没办法最后想来想去，发现用<code>Oneindex</code> 来做图床效果还可以，流量用的是 onedrive ，容量也够大，还不收钱。暂时可以满足需求了。等过两天发现了更好的服务在分享给大家吧。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[跟小伙伴的青岛行]]></title>
+        <id>https://nuoea.com/post/qingdao-with-friend</id>
+        <link href="https://nuoea.com/post/qingdao-with-friend">
+        </link>
+        <updated>2018-11-03T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>因为公司所在行业的一个展会最近在青岛召开。所以跟着公司的小伙伴们一起去了一次青岛。第一次去到这个广受好评的城市，内心还是蛮激动的，在飞机上就在期待当地的美食以及有可能会发生的故事。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>因为公司所在行业的一个展会最近在青岛召开。所以跟着公司的小伙伴们一起去了一次青岛。第一次去到这个广受好评的城市，内心还是蛮激动的，在飞机上就在期待当地的美食以及有可能会发生的故事。</p>
+<!-- more -->
+<h2 id="展会">展会</h2>
+<p>过去还是要干活的哈，前三天都在展会站台。一站一天，晚上回到酒店基本啥都不想，倒在床上就睡了，所以博客一直也就没有办法更新。不过开心的是，认识了一些新的小伙伴。有积极上进的志愿者，也有兄弟公司的小可爱。还有一些很暖很暖的约定，你们都可别忘了。</p>
+<p>展会一直进展的很顺利。也得到了很多上镜的机会，相信还在看新闻联播的小伙伴应该都有看到过。</p>
+<h2 id="住宿">住宿</h2>
+<p>过去虽然是干活，但是攻略还是要做的哈。精挑细选了一条好评率最高的路线之后，住宿就是个比较头疼的问题了。最后想，既然难得来一次，不然就奢侈点住个好一点的民宿。就这么住下来了。</p>
+<p>住的地方靠近海边，环境真的挺棒的。停车还免费。真心觉得这群小伙伴挺靠谱，跟着他们玩真省心。</p>
+<h2 id="行程">行程</h2>
+<p>因为展会占据了三天的时间。留给我们去欣赏这个城市的时间只剩下一天半，不过在我们浓缩版精华攻略的指导下，我们还是完成了栈桥到五四广场，台东小吃到青岛散啤的全方位体验。</p>
+<p>最后上点图片吧。</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/18-11-4/58746122.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/18-11-4/52409635.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nuoea.com/18-11-4/60222105.jpg" alt=""></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开启博客视觉系统升级计划]]></title>
+        <id>https://nuoea.com/post/start-vision-plan</id>
+        <link href="https://nuoea.com/post/start-vision-plan">
+        </link>
+        <updated>2018-10-29T04:16:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>搬到 Bitcron 来之后一切都很满意。全新的写作体验，真的可以让人找回一开始写博的那种状态。要说唯一的遗憾，可能就是 Bitcron 提供的主题模版太少了，不过也正如官方文档所说，现在折腾这种静态博客的人，大多数都是有一定动手能力的吧。所以当时就想，有时间就自己写一个吧，也不是什么大问题。恰好上个周末有空，就花了两天的时间，把这个设计落地了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>搬到 Bitcron 来之后一切都很满意。全新的写作体验，真的可以让人找回一开始写博的那种状态。要说唯一的遗憾，可能就是 Bitcron 提供的主题模版太少了，不过也正如官方文档所说，现在折腾这种静态博客的人，大多数都是有一定动手能力的吧。所以当时就想，有时间就自己写一个吧，也不是什么大问题。恰好上个周末有空，就花了两天的时间，把这个设计落地了。</p>
+<!-- more -->
+<h2 id="初心">初心</h2>
+<p>第一次尝试制作主题，是在16年的时候，那时使用的程序是Typecho。之后因为各种各样的问题，博客打理得少，更新的就更少了。所以博客的视觉系统就一直停留在那个时候。而这两年，出现了太多好的设计语言。所以在接触到 Bitcron 之后，就想要去尝试更好的视觉效果了。</p>
+<p>所以，在熬过了最初的适应期之后，心思就开始活泛起来了。一点点的看官方的文档，同时一点点的开始画网页的原型。可能是因为工作的关系吧。最近因为公司的项目有了解到阿里的 <code>Ant Design</code> 这个项目。越是接触，这个项目就越是深得我心。觉得这套框架的交互做的实在是太棒了。以至于我常常在公司的时候都会想：</p>
+<blockquote>
+<p>如果这套框架拿来做个人主页，体验应该也很不错吧！</p>
+</blockquote>
+<p>当时只是灵光一闪。其实心里也明白这种类似后台 <code>Dashboard</code> 的框架拿来做前端展示，肯定有很多需要修改的结构。在画原型的过程中，也一度陷入僵局，多次打算放弃。所幸，还是坚持完成了。</p>
+<h2 id="设计">设计</h2>
+<p>我比较享受整个设计的过程。虽然水平有限，但还是乐在其中。虽然有着设计规范的约束，有着市场需求的压力。但是在天马行空的想象中，寻找到的最合适的设计，无不体现着设计师的智慧和关怀。这是我热爱它的原因。</p>
+<h2 id="方案一">方案一</h2>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/18-10-29/86761214.jpg" alt=""></figure>
+<hr>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/18-10-29/87559289.jpg" alt=""></figure>
+<blockquote>
+<p>设计稿持续更新</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[极路由B70刷老毛子Padavan固件全过程]]></title>
+        <id>https://nuoea.com/post/hiwifi-b70-padavan</id>
+        <link href="https://nuoea.com/post/hiwifi-b70-padavan">
+        </link>
+        <updated>2018-10-20T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>在折腾酸酸乳的时候，无意中看到的这个固件，说是可以用路由器直接挂载酸酸乳，比较感兴趣，就到恩山论坛注册了账号翻了翻帖子。因为手上在用的主路由是小米的PRO，偶尔会有不稳定，但也不是什么大事。比较不爽的是，总是会弹分享路由得金币乱七八糟的广告，所以寻思如果有固件，刷成第三方也蛮好的。只是比较遗憾的是，并没有找到这个路由器的固件，却看到荒野无灯出了极路由B70的padavan固件。想到正好有个B70在家吃灰。就翻出来折腾了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在折腾酸酸乳的时候，无意中看到的这个固件，说是可以用路由器直接挂载酸酸乳，比较感兴趣，就到恩山论坛注册了账号翻了翻帖子。因为手上在用的主路由是小米的PRO，偶尔会有不稳定，但也不是什么大事。比较不爽的是，总是会弹分享路由得金币乱七八糟的广告，所以寻思如果有固件，刷成第三方也蛮好的。只是比较遗憾的是，并没有找到这个路由器的固件，却看到荒野无灯出了极路由B70的padavan固件。想到正好有个B70在家吃灰。就翻出来折腾了。</p>
+<!-- more -->
+<p>整个折腾过程不算太难，搞过VPS的基本都能走下来。只是B70这个机器现在比较麻烦的是解锁的过程，很多的教程都失效了。我也是在不断的尝试中，找到了一个现在还能用的解锁方式。</p>
+<h2 id="解锁">解锁</h2>
+<p>现在官方最新的固件版本号是：1.4.8.20462s 。 这个版本是不能解锁SSH的。唯一的办法就是降级。现在降级的固件在网上也几乎找不到了。分享一下：</p>
+<blockquote>
+<p>下载 ：<a href="https://pan.nuoea.com/tools/padavan/b70/B70%E5%AE%98%E6%96%B9%E5%9B%BA%E4%BB%B6/2.142baf.zip">2.142baf</a></p>
+</blockquote>
+<p>降级过程：</p>
+<ul>
+<li>拔掉路由电源。</li>
+<li>用网线将极路由 LAN 口与电脑网口相连，刷机路由器无需联网，有无线网卡的建议将电脑的无线禁用。</li>
+<li>按住极路由 RESET 不放，然后插上电源。</li>
+<li>5秒之后松开 RESET，等待本地连接自动获取IP，网关IP为变为192.168.2.1。</li>
+<li>浏览器中输入 192.168.2.1 选择降级固件刷机。</li>
+<li>刷机完成，网关变成192.168.199.1。</li>
+</ul>
+<p>到此降级成功。如果中途有地方卡住了，可以重新再来一次。<code>注意：刷机降级有风险，请谨慎操作！！！</code></p>
+<h2 id="获取权限">获取权限</h2>
+<p>这里需要用到的工具是 <code>WINSCP</code>。具体过程如下：</p>
+<ul>
+<li>在极路由官方云插件平台中，下载vsftpd插件， 并设置好。</li>
+<li>WinSCP登录FTP, 密码为路由器后台密码。</li>
+<li>把破解文件拖入上传。</li>
+<li>在极路由官方云插件平台中，安装 定时重播 插件。当前已经下架, 可点击任意一个软件，然后在该软件的浏览器网址中找到sid号码，并把sid号码改成118284854安装。</li>
+<li>在自定义规则中填入： *  * * * * sh /tmp/storage/2.sh ，并启动。</li>
+<li>回到 WinSCP 软件，  过1分钟左右， 点击刷新按钮。</li>
+<li>用putty或者xshell ssh登录。用户名：root ，密码：路由器后台密码，端口：22</li>
+</ul>
+<p>到此为止整个路由器的准备工作都完成了。剩下的就是刷固件了。</p>
+<h2 id="备份固件">备份固件</h2>
+<p>一定要记得备份，如果以后想要刷回官方固件，备份文件就特别重要了。关键的时候，还可以用来救砖。</p>
+<pre><code>root@Hiwifi:/tmp# cat /proc/mtd //命令说明：查看原固件分区信息
+dev: size erasesize name
+mtd0: 00080000 00020000 &quot;u-boot&quot;
+mtd1: 00080000 00020000 &quot;debug&quot;
+mtd2: 00040000 00020000 &quot;Factory&quot;
+mtd3: 02000000 00020000&quot;firmware&quot;
+mtd4: 00180000 00020000 &quot;kernel&quot;
+mtd5: 01e80000 00020000 &quot;rootfs&quot;
+mtd6: 00080000 00020000&quot;hw_panic&quot;
+mtd7: 00080000 00020000 &quot;bdinfo&quot;
+mtd8: 00080000 00020000 &quot;backup&quot;
+mtd9: 01000000 00020000 &quot;overlay&quot;
+mtd10: 02000000 00020000&quot;firmware_backup&quot;
+mtd11: 00200000 00020000 &quot;oem&quot;
+mtd12: 02ac0000 00020000 &quot;opt&quot;
+root@Hiwifi:~# dd if=/dev/mtd0 of=/tmp/u-boot.bin //命令说明：备份打包mtd0为u-boot.bin文件到tmp目录下
+1024+0 records in
+1024+0 records out
+root@Hiwifi:~# dd if=/dev/mtd2 of=/tmp/Factory.bin//命令说明：备份打包mtd2为Factory.bin文件到tmp目录下
+512+0 records in
+512+0 records out
+root@Hiwifi:~# dd if=/dev/mtd3 of=/tmp/firmware.bin//命令说明：备份打包mtd3为firmware.bin文件到tmp目录下
+65536+0 records in
+65536+0 records out
+root@Hiwifi:~#
+</code></pre>
+<p>其它mtd文件也可以全部备份到tmp目录下。使用winscp工具，scp连接路由器，192.168.199.1。用winscp工具把备份的/tmp/*.bin原厂固件下载到本地电脑备用。</p>
+<h2 id="备份mac地址">备份MAC地址</h2>
+<p>MAC地址规则及示例：</p>
+<pre><code>WAN MAC：在LAN的基础上最后一位加1，具体以固件内看到的为准。示例：D4:EE:07:32:84:23
+LAN MAC：机器背面的MAC地址即LAN地址，也可以进官方固件查看。示例：D4:EE:07:32:84:22
+2.4G MAC：同LAN MAC，也可以用WirelessMon软件查看。示例：D4:EE:07:32:84:22
+5G MAC：可以用WirelessMon软件查看，与2.4GMAC区别是第二位不同。示例：D0:EE:07:32:84:22
+</code></pre>
+<h2 id="刷入-breed">刷入 breed</h2>
+<p>breed 就类似于安卓手机上的 Recovery 。刷上了这个，之后路由器在想刷什么固件都不用担心变砖。</p>
+<p>过程也是很简单。</p>
+<ul>
+<li>用 WINSCP 工具将 breed.bin 文件复制到路由tmp目录。</li>
+<li>输入命令：root@Hiwifi:～# cd /tmp</li>
+<li>输入命令：root@Hiwifi:/tmp# mtd breed.bin u-boot</li>
+<li>输入命令：root@Hiwifi:/tmp#mtd erase firmware_backup</li>
+<li>reboot</li>
+</ul>
+<h2 id="刷入-padavan">刷入 padavan</h2>
+<p>最后就是刷固件了。</p>
+<ul>
+<li>路由器抜电源，长按复位键，不要松开。</li>
+<li>插上电源，5秒后松开复位键，浏览器输入：192.168.1.1。</li>
+<li>上传 padavan 固件，点恢复固件。</li>
+</ul>
+<h2 id="最后">最后</h2>
+<p>刷好之后重启一次，就可以登录路由器了。登录之后别忘了还要双清一次。然后恢复MAC地址。之后就可以享受新固件带来的乐趣了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[推荐一家免费的主机]]></title>
+        <id>https://nuoea.com/post/recommend-free-host-youjiazhuji</id>
+        <link href="https://nuoea.com/post/recommend-free-host-youjiazhuji">
+        </link>
+        <updated>2018-10-17T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>其实搬到 Bitcron 来之后。之前的 VPS 就没有怎么用了，来年也不准备再续费。但是还有一些项目是需要用到PHP环境，如果单独再去为此续费又觉得有点不划算。想到之前发现的一个免费的主机，好像有两年了吧，还是运行的很稳定。正好最近折腾 DISQUS ，需要用到一台境外的PHP主机，就翻出来用了一下，发现效果还蛮好，就推荐一下。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2>
+<p>其实搬到 Bitcron 来之后。之前的 VPS 就没有怎么用了，来年也不准备再续费。但是还有一些项目是需要用到PHP环境，如果单独再去为此续费又觉得有点不划算。想到之前发现的一个免费的主机，好像有两年了吧，还是运行的很稳定。正好最近折腾 DISQUS ，需要用到一台境外的PHP主机，就翻出来用了一下，发现效果还蛮好，就推荐一下。</p>
+<!-- more -->
+<h2 id="有家主机">有家主机</h2>
+<blockquote>
+<p>从2009年开始，有家主机的前身优比特免费空间以为没有支付手段的学生站长提供建站空间为目标，为草根站长提供了一个实现创意的园地。今天，有家主机坚持通过稳定性与可靠性的拓展，将能够满足所有用户需求的高质量及高附加值服务向整个IDC行业普及。</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/18-10-18/2.png" alt=""></figure>
+<p>大致的介绍都在上面了。</p>
+<p>其实就实际的体验来说，确实超出预期。CP面板，该有的功能也都有。访问速度也可以接受。关键还很稳定，而且免费，还要啥自行车。</p>
+<h2 id="最后">最后</h2>
+<p>最后贴上地址：</p>
+<blockquote>
+<p><a href="https://www.youjiazhuji.com">有家主机</a></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitcron 科学使用 Disqus]]></title>
+        <id>https://nuoea.com/post/bitcron-use-disqus</id>
+        <link href="https://nuoea.com/post/bitcron-use-disqus">
+        </link>
+        <updated>2018-10-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="前言">前言</h2>
+<p>其实说到评论，老实讲 Bitcron 自带的评论还算好用，简单明了，该有的功能也都有。访问速度也没有问题。只是对于 Bitcron 来讲，所有的评论都是以一个个单独的 csv 文件的形式存在，然后存放在一个叫做 -comment 的文件夹里。从别的地方导入进来吧，很容易。但是想导出去好像我还没有找到办法。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="前言">前言</h2>
+<p>其实说到评论，老实讲 Bitcron 自带的评论还算好用，简单明了，该有的功能也都有。访问速度也没有问题。只是对于 Bitcron 来讲，所有的评论都是以一个个单独的 csv 文件的形式存在，然后存放在一个叫做 -comment 的文件夹里。从别的地方导入进来吧，很容易。但是想导出去好像我还没有找到办法。</p>
+<!-- more -->
+<p>于是，思来想去就想换了。但是现在能用的不多，好用的插件，要么就关闭服务了，要么就被挡住了。直到昨天，逛到朋友的站，讲到了可以科学的使用Disqus，利用 API 可以愉快的在圈内玩耍。立马就被种草了。</p>
+<h2 id="过程">过程</h2>
+<p>翻了教程，整个项目跑下来其实不难，制作这个项目的大神在 Github 里面其实已经说的很详细了。我就记录一下在 Bitcron 中使用这个项目的关键点。</p>
+<ul>
+<li>因为 Bitcron 是静态托管服务，所以如果想使用这个项目，你需要一台支持 PHP 的境外主机，国内的不行。</li>
+<li>对于主机的PHP版本有要求，不能低于 5.6+</li>
+<li>因为 Bitcron 默认是开启 SSL 服务的。所以存放项目文件的链接也要开启 SSL 服务，不然会有跨域的报错问题。</li>
+<li>Bitcron 预留了 第三方评论的设置接口。直接在  Dashboard - 呈现 中 粘贴前端代码就可以。</li>
+</ul>
+<h2 id="最后">最后</h2>
+<p>贴上大神的网址：</p>
+<blockquote>
+<p><a href="https://blog.fooleap.org/">fooleap</a></p>
+</blockquote>
+<p>以及项目的 Githu 地址：</p>
+<blockquote>
+<p><a href="https://github.com/fooleap/disqus-php-api">Disqus-php-api</a></p>
+</blockquote>
+<p>有兴趣的小伙伴可以折腾一下。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[这是一个值得期待的新赛季]]></title>
+        <id>https://nuoea.com/post/rocket-new-season</id>
+        <link href="https://nuoea.com/post/rocket-new-season">
+        </link>
+        <updated>2018-10-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>这个休赛期。火箭的操作还是很积极的。尽可能的去补强自己的弱点，针对上个赛季所暴露出来的问题，去改善自己的阵容。所以对于这个赛季，这套全新的阵容。大家都十分期待。熬过了漫长的长草期。日思夜盼，新赛季总算是开始了。虽然只是一场季前赛。但新赛季的这只火箭队还是让人眼前一亮。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这个休赛期。火箭的操作还是很积极的。尽可能的去补强自己的弱点，针对上个赛季所暴露出来的问题，去改善自己的阵容。所以对于这个赛季，这套全新的阵容。大家都十分期待。熬过了漫长的长草期。日思夜盼，新赛季总算是开始了。虽然只是一场季前赛。但新赛季的这只火箭队还是让人眼前一亮。</p>
+<!-- more -->
+<h2 id="甜瓜">甜瓜</h2>
+<p>甜瓜首秀打的相当高效，跟上赛季的感觉完全不同了，这么写似乎有开会的嫌疑。不过甜瓜打的是真的开心，50%的命中率也很能说明问题。不过看得出来甜瓜依然在努力的融入新的战术体系。今天的表现很惊艳。攻守都没问题。期待后期有更亮眼的发挥。</p>
+<h2 id="恩尼斯">恩尼斯</h2>
+<p>作为顶替铁瓜的新防守大闸。恩尼斯还是有两把刷子的。今天效率也不错。防守端的默契还有待加强。不过防守意识在这。配合鞋王相信可以让换防更具压迫感。</p>
+<h2 id="麦卡威">麦卡威</h2>
+<p>今天的表现真的亮眼，毕竟真人类首秀精华。练出投篮就更好了。不过现在的角色：稳定的持球点，突破点，和防守。已然是非常满意。不能要求更多。希望稳定提供火力。让炮可以多休息。</p>
+<h2 id="巴西杜兰特">巴西杜兰特</h2>
+<p>这个身体素质真的是爆表，应该是捡到宝了。恐怖的臂展在完全可以放在五小里面打五号位。希望这个赛季跟着灯泡好好练吧。看好可以打出来。</p>
+<h2 id="eg">EG</h2>
+<p>圆脸还是一如即往的稳。虽然说最近卷入交易风波，但丝毫没有收到影响。我一直以来也都觉得，圆脸是相较巴特勒更适合这个体系的存在。当然巴特勒的能力也是毋庸置疑。</p>
+<h2 id="最后">最后</h2>
+<p>其实通过这场球，还是看出来不少的东西。比如说，虽然走了防守教练，但无限换防依然稳定的运行，还有三分线外46次出手，命中21求。这都还是我们熟悉的那只火箭。</p>
+<p>所以我们有理由相信。这只阵容深度更加强大，天赋更加恐怖的火箭队可以走的更远。给我们更多惊喜~</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写在RNG的S8前夕]]></title>
+        <id>https://nuoea.com/post/before-the-rng-s8</id>
+        <link href="https://nuoea.com/post/before-the-rng-s8">
+        </link>
+        <updated>2018-10-02T12:59:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>关注LOL赛事的朋友都知道，今年对于RNG对于UZI来说注定是不同寻常的一年，也是收获满满的一年。今年的RNG有多强势，看看他们拿的冠军数量就知道了，只剩下一个S8，RNG就可以在今年完成大满贯的传奇。这对于中国电竞产业，对于LPL都可以说是说意义重大吧，虽然我们已经在今年的亚运会上证明了我们的实力。只是S8，这座大山，对于RNG和UZI来说，意义格外不同吧。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>关注LOL赛事的朋友都知道，今年对于RNG对于UZI来说注定是不同寻常的一年，也是收获满满的一年。今年的RNG有多强势，看看他们拿的冠军数量就知道了，只剩下一个S8，RNG就可以在今年完成大满贯的传奇。这对于中国电竞产业，对于LPL都可以说是说意义重大吧，虽然我们已经在今年的亚运会上证明了我们的实力。只是S8，这座大山，对于RNG和UZI来说，意义格外不同吧。</p>
+<!-- more -->
+<h2 id="今年的rng">今年的RNG</h2>
+<p>相比往常几年，今年的韩国人明显慌神了。SKT全员掉线，而RNG今年的强势发挥，似乎无法阻挡。Gen.G的主教练也在论坛上说：</p>
+<blockquote>
+<p>RNG是最难对付的对手，当我们遇到RNG，比赛从来没有按照我们的节奏去进行。主要的原因是RNG的下路真的很强，RNG将会是S8中最难以对付的对手。</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/18-10-2/42706601.jpg" alt=""></figure>
+<p>而就在近期。据网友爆料，UZI在韩服训练的时候被各种演，也许正是因为这种恐慌情绪的蔓延，才会让韩国人这样失去理智吧。据说，就在昨天，UZI韩服训练再次被演，第一局被骂PIG，第二局被奶妈明演，他们的行为引起极度不适，而UZI这次并没有说什么，而是把ID成“rangquansjkkkr”，KR是韩国的简写，这句拼音翻译过来的意思就是让全世界看看韩国。</p>
+<h2 id="uzi">UZI</h2>
+<p>就像UZI在夏季赛夺冠的那个夜晚说的一样：</p>
+<blockquote>
+<p>既然今年这么顺。那S8的冠军是我们的！</p>
+</blockquote>
+<p>这么多年。对于UZI来说，无冕之王可能是最让人感到心疼的一个称号。公认的世界第一ADC，却没有任何一个冠军奖杯为其统治地位助力。反而是成为了很多人讽刺挖苦的依据。相信小狗心里远没有其脸上的表情看起来那么云淡风轻。今年的爆发，其实仔细想想也不奇怪，就像昨天看到火箭的德安东尼教练说的：</p>
+<blockquote>
+<p>那扇门会开的，你要一直扣响它。</p>
+</blockquote>
+<p>所以今年说是厚积薄发也好，说是命运使然也好。今年的RNG给了我们太多惊喜，那么。就在这个十月，好好加油吧。让这段传奇，继续下去！</p>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/18-10-2/86910825.jpg" alt=""></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[聊聊黑莓的工业设计]]></title>
+        <id>https://nuoea.com/post/best-design-blackberry</id>
+        <link href="https://nuoea.com/post/best-design-blackberry">
+        </link>
+        <updated>2018-09-30T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>其实说到黑莓，不得不说那块全键盘的设计，这确实是这个品牌最好的象征。这快键盘可以说是见证了这家公司的成功和落寞。让人唏嘘不已。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>其实说到黑莓，不得不说那块全键盘的设计，这确实是这个品牌最好的象征。这快键盘可以说是见证了这家公司的成功和落寞。让人唏嘘不已。</p>
+<!-- more -->
+<h2 id="写在前面">写在前面</h2>
+<p>黑莓的最辉煌的时代，总统站台，政商背书，可谓是意气风发，一时无两。只是这个行业的发展速度真的太快了。快到可能你都来不及去看看自己所制造的这一场狂欢，属于你的时代就过去了。 07年苹果的发布会是一场颠覆，对于整个世界都是，对于黑莓同样是。只不过那个时代的我们似乎都没有意识到人们对于手机的需求，会是一块越来越大的屏幕。所以黑莓的这块打磨的体验完美到极致的物理全键盘就成了鸡肋。</p>
+<p>所以从辉煌到落寞。这些年黑莓的日子并不好过。不过好歹还是磕磕绊绊的过来了。人们好像也对千篇一律的手机设计感到了厌倦。从曲面屏设计到全面屏设计，再到刘海屏设计。其实从美感上来说，是一种倒退。但是<code>设计</code>本来就是千万种选择的一种妥协。受制于工艺、材料、成本方方面面的牵制。所以设计推动行业发展的这个理念我是比较赞同的。因为人对于美感的最求是一种本能。</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/18-10-1/10064706.jpg" alt=""></figure>
+<h2 id="最后">最后</h2>
+<p>于是我们看到，这个时候的黑莓。还是坚持着在我们看来反潮流的工业设计。却吸粉无数。大概是这么多年。大家都太需要一点不一样的新鲜感了吧。抛开主流的配置来说，这部KEY2各方面的体验都很完美。只是骁龙660的平台卖到3999的价格。确实让人有点薪尽自然凉的赶脚。不过就算我们不谈情怀，这部手机的颜值还是数一数二的。商务场合使用，性能也完全够用。毕竟这个看脸的时代。好看什么的最重要了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[福特SYNC3系统升级记录]]></title>
+        <id>https://nuoea.com/post/ford-sync-update</id>
+        <link href="https://nuoea.com/post/ford-sync-update">
+        </link>
+        <updated>2018-09-29T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>这两年随着互联网的发展，我们能够看到的各块屏幕几乎都被占领了，车载导航的这块屏幕也不例外，各大互联网公司以及传统车企纷纷推出自己的车机系统，加强用户粘性。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这两年随着互联网的发展，我们能够看到的各块屏幕几乎都被占领了，车载导航的这块屏幕也不例外，各大互联网公司以及传统车企纷纷推出自己的车机系统，加强用户粘性。</p>
+<!-- more -->
+<p>当然这里面鱼龙混杂，有做的好的，也有用着扎心的，就不细说了。比较出名的其实说来说去也就两个产品。一个是苹果的<code>CarPlay</code>，还有一个就是谷歌推出的 <code>Andtoid auto</code>。</p>
+<p>基于行业良好的口碑和对行业整体的掌控力，苹果在推广<code>CarPlay</code>方面可以说一直是顺风顺水。而跟IOS无缝对接的良好体验也是<code>CarPlay</code>非常迷人的地方。只是痛点一直都是第三方的APP支持的较少，可能也跟苹果早期开放的权限不足有关。好在IOS12之后，常用的APP都可以使用了。高德导航、网易云等等。</p>
+<p>而 <code>Andtoid auto</code>的使用体验么，应该是不错的。只是因为大家都懂的原因，现在没法用，所以暂且不说。</p>
+<p>除此之外，就是传统车企对自身旗下车型定制的车机系统了。这类产品多数都比较难用。只能说在产品设计之初，其设计初衷可能就背离了用户体验吧。</p>
+<h2 id="说说-sync3">说说 SYNC3</h2>
+<p>说到福特的这套<code>SYNC3</code>，其实还是觉得很神奇的。这套系统人性化的地方在于，好像是他们承认自己做的系统不好用，所以干脆就把市场上好的都集成到一起，然后统统塞给你一样。反正我是欣然接受了这种略微讨巧的做法。</p>
+<p><code>SYNC3</code>集成了苹果的<code>CarPlay</code>和谷歌的<code>Android Auto</code> ，所以不管是处在什么生态圈，都可以拥有比较好的使用体验。最近也是听说，最新的系统支持了百度的<code>CarLife</code>。所以激起了升级的欲望。</p>
+<h2 id="升级">升级</h2>
+<p>升级过程还是略坑。有很多的细节在官方的升级文档中都没有注明。所以只能自己在无数次升级失败中摸索了。大致过程如下：</p>
+<ul>
+<li>
+<p>福特官网找到相关的页面注册，邮箱收到链接，就可以直接下载。下载挺快，解压直接复制到U盘。</p>
+</li>
+<li>
+<p>不用启动车，插到车里会提示系统正在升级，时间大概25分钟。之后提示第一阶段升级好，下次启动车辆第二段升级。（注意：不要拔下U盘，开门下车锁车，不然提示失败！）</p>
+</li>
+<li>
+<p>再开门上车，启动车辆再次提示在升级中，耗时20分钟，建议跑短途时操作，耐心等待，提示拔掉U盘，下次启动时升级成功。</p>
+</li>
+</ul>
+<p>然后就可以愉快的玩耍了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写在新赛季开始之前]]></title>
+        <id>https://nuoea.com/post/before-start-season</id>
+        <link href="https://nuoea.com/post/before-start-season">
+        </link>
+        <updated>2018-09-28T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>上个赛季对于火箭来说，无疑是成功的。新的阵容，新的队友，新的球队文化以及新的球队老板。一切都似乎朝着好的方向在走，也会让人联想到94-95赛季那支意气风发的火箭。虽然结果并没有如我们想象的那样完美。但别忘了，这只是他们的第一个赛季而已。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>上个赛季对于火箭来说，无疑是成功的。新的阵容，新的队友，新的球队文化以及新的球队老板。一切都似乎朝着好的方向在走，也会让人联想到94-95赛季那支意气风发的火箭。虽然结果并没有如我们想象的那样完美。但别忘了，这只是他们的第一个赛季而已。</p>
+<!-- more -->
+<p>上个赛季的火箭似乎一直都在打破人们的固有印象以及自身的枷锁。从赛季初的不被看好，到连续的创造了两个连胜纪录。也许就像骚炮说的：</p>
+<blockquote>
+<p>我就是打球</p>
+</blockquote>
+<p>到最后，一路涨球，直到让保罗摸到日思夜想的西决地板，我相信那一刻所有的保罗的球迷都是心怀感动的，毕竟这个梗被大家拿出来调侃了这么多年，确实不应该被用来当作是质疑一个球员伟大的原因了。也许新赛季58分的那个梗也会翻篇，谁知道呢。</p>
+<h2 id="新赛季">新赛季</h2>
+<p>这个夏天，莫雨田在保留了球队完整换防体系的情况下，针对性的对阵容进行了补强，新赛季的火箭无疑更有竞争力了。而这支球队的赢球文化也会让新加入的小伙伴从中受益吧。从前两天甜瓜和恩尼斯的采访中不难看出来。当整个球队的所有人都开始讨论防守和赢球的时候。我觉得这支球队是很难被击败的。</p>
+<p>唯一有所担忧的是布帅的退休。不过也许正是看到了球队在防守端的努力，觉得不用再去为了球队的防守操心，布帅才放心的做出了退休的决定吧。</p>
+<h2 id="巴拿马">巴拿马</h2>
+<p>这个休赛期，灯泡又组织了一次自发性质的球队合练，在去年他们就这么干了，巴拿马五小也因此得名。我觉得这也是球队成功的一部分，它保证了球队化学反应的良好运行。也让新的小伙伴更加的了解球队的体系和战术。觉得甜瓜去年之所以会不那么甜，就是因为一切的决定都太仓促了。但这个休赛期，从媒体的种种爆料来看，甜瓜还是非常渴望证明自己的。也许新赛季可以看到一个完全不同的甜瓜。拭目以待。</p>
+<h2 id="最后">最后</h2>
+<p>不管是姚麦时期的那支火箭，还是灯泡率领的这支火箭，其实觉得这么多年，火箭这支球队对于中国球迷来说，更多的是一种情怀。当然，抛开情怀来说，这支球队所建立起来的文化也同样迷人。相较于这个时代最伟大的球队之一勇士，也毫不想逊色。正如保罗所说：</p>
+<blockquote>
+<p>如果不是为了击败勇士，那我们究竟在做什么。</p>
+</blockquote>
+<p>Run as one ！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[图床的选择]]></title>
+        <id>https://nuoea.com/post/blog-image-hosting</id>
+        <link href="https://nuoea.com/post/blog-image-hosting">
+        </link>
+        <updated>2017-04-27T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>其实但凡是搭网站、写博客，或者是做设计案例的展示，都需要一个稳定靠谱的地方来存放我们的图片。随着互联网的发展，我们的选择也越来越多，那么如何挑选适合自己的图床就很关键了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>其实但凡是搭网站、写博客，或者是做设计案例的展示，都需要一个稳定靠谱的地方来存放我们的图片。随着互联网的发展，我们的选择也越来越多，那么如何挑选适合自己的图床就很关键了。</p>
+<!-- more -->
+<p>近几年虽然提供相关服务的网站越来越多，但因为各种各样的原因，收费模式以及网站的稳定性等等，其实大家选择的图床大多就那么几个吧。</p>
+<h2 id="巴巴变">巴巴变</h2>
+<p>这个是阿里早起提供的一个图床服务。其初衷应该是为了方便淘宝店主上传管理自己网店的图片，提供外链服务，但是需要收费。当时用过几个月的时间，其实速度各个方面都还不错，毕竟阿里爸爸的产品。只是后期阿里基于产品的考虑吧，把这个服务并入到淘宝卖家的图床服务中，不再单独对外开放。故放弃。</p>
+<h2 id="又拍">又拍</h2>
+<p>也是一个比较老牌的图床服务网站。在那个时候，算是最专业的那一类图床吧，毕竟除了这个就没有别的业务了。用过一段时间。没啥印象。貌似还行。</p>
+<h2 id="七牛云">七牛云</h2>
+<p>七牛最早出现的时候，就被写博客的小伙伴安利了。最吸引的地方应该是它的收费模式吧，在今天看来依然很良心。可以免费使用的巨大无比的存储空间，一下子就让我放弃了同类的其他产品。一直到今天依然在使用。只是七牛云好是好，就是一直以来都没有很方便的图形界面客户端，用来管理我们的图片素材。在官方的文档中只提供了API接口和终端命令行工具来同步图片，对于没有相关基础的童鞋来说，确实不太友好。不过聊胜于无吧，就这样一直坚持着用了下来。</p>
+<h2 id="最优解">最优解</h2>
+<p>七牛的大存储空间是个天然的优势，那么如何发挥这个优势，让它更有效率就成了最好的选择。无意间我发现了这个工具：</p>
+<blockquote>
+<p><a href="https://jiantuku.com"> 极简图床 </a></p>
+</blockquote>
+<p>它是一款上传非常方便的工具，他的作用就是一个桥梁，把你的图片和你要存储的位置绑定起来，优化整个流程，配合七牛云使用，简单粗暴，非常畅快。同时支持绑定的图床还有微博以及阿里云OSS。</p>
+<p>除此之外，它还提供了有 <code>Chrome</code> 的插件，在浏览网站时发现了任何好的图片素材都可以一键保存到七牛云，及大的优化了整理素材的时间。</p>
+<h2 id="写在最后">写在最后</h2>
+<p>极简图床配合七牛云一起使用，应该可以满足大部分人对于图床的需求了。而且，极简图床还会根据自己的规则去对上传的图片进行重命名，方便管理。规则如下：</p>
+<pre><code>
+&lt;img src=&quot;//url.com/当前日期/随机码.jpg&quot; alt=&quot;&quot; /&gt;
+
+</code></pre>
+<p>当然，如果后期可以自定义规则就更好了。</p>
+]]></content>
+    </entry>
+</feed>

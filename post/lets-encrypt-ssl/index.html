@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+<title>关于免费通配符证书 - 有呀</title>
+<meta name="description" content="什么都有一点">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link type='text/css' rel='stylesheet' href='https://nuoea.com/styles/main.css' media='screen' />
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src='https://nuoea.com/media/scripts/jquery.js'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+
+<script >hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+  <div class="layout">
+    <div class="layout-header">
+
+	<div class="layout-header-main">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+
+					<div class="navbar">
+
+						<div class="logo">
+							<a href="https://nuoea.com">
+								<img class="logo" src="https://nuoea.com/media/images/site_avatar.png?v=1576547184813"
+									alt="">
+							</a>
+						</div>
+
+						<div class="menu d-md-inline-block d-none">
+							<ul class="layout-navigation-list">
+								
+								<li class="layout-navigation-item"><a title="首页"
+										href="/">首页</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="关于"
+										href="/post/about">关于</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="归档"
+										href="/archives">归档</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="链接"
+										href="/links">链接</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						
+						<div class="item d-md-inline-block d-none">
+							<a class="btn" href="/atom.xml">
+								订 阅
+							</a>
+						</div>
+						
+
+						<div class="nav d-md-none d-inline-block">
+							<div class="trigger">
+								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+</div>
+    <div class="layout-collapse d-md-none">
+	<div class="layout-collapse-main">
+		<ul class="layout-collapse-list">
+			
+			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
+			
+			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
+			
+			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
+			
+			<li class="layout-collapse-item"><a title="链接" href="/links">链接</a></li>
+			
+
+		</ul>
+	</div>
+</div>
+
+    <div class="layout-content">
+      <div class="layout-content-main">
+        <div class="container">
+          <div class="row justify-content-lg-center">
+            <div class="col-12 col-lg-9">
+              <div class="layout-post">
+                <div class="layout-post-body">
+                  <div class="row">
+    
+                    <div class="col-md-12 col-lg-10">
+                      <div class="layout-post-main m-right m-md-right">
+                        <div class="layout-post-header">
+                          <h1 class="layout-post-title">关于免费通配符证书</h1>
+                          <div class="layout-post-meta">
+                            <div class="item">
+                               <a href="https://nuoea.com/tag/notes" class="post--keyword"
+                                data-title="记录" data-type="post_tag" data-term-id="39">记录</a>
+                              
+                            </div>
+                            <div class="item">
+                              <span>2019-11-01</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="layout-post-content">
+                          <div class="layout-post-item">
+                             
+                              <p class="with-img"><img src="https://cdn.nuoea.com/19-11-1/1.jpg" class="attachment-full size-full wp-post-image" alt="关于免费通配符证书" /></p>
+                            
+                            <h2 id="说明">说明</h2>
+<p>Let's Encrypt 是国外一个公共的免费SSL项目，由 Linux 基金会托管，它的来头不小，由 Mozilla、思科、Akamai、IdenTrust 和 EFF 等组织发起，目的就是向网站自动签发和管理免费证书，以便加速互联网由 HTTP 过渡到 HTTPS，目前 Facebook 等大公司开始加入赞助行列。</p>
+<!-- more -->
+<p>Let's Encrypt 已经得了 IdenTrust 的交叉签名，这意味着其证书现在已经可以被 Mozilla、Google、Microsoft 和 Apple 等主流的浏览器所信任，用户只需要在 Web 服务器证书链中配置交叉签名，浏览器客户端会自动处理好其它的一切，Let's Encrypt 安装简单，使用非常方便。</p>
+<h2 id="使用-certbot">使用 certbot</h2>
+<ul>
+<li>1、获取工具</li>
+</ul>
+<pre><code>wget https://dl.eff.org/certbot-auto
+chmod a+x certbot-auto
+</code></pre>
+<ul>
+<li>2、获取证书</li>
+</ul>
+<pre><code>./certbot-auto certonly  -d 你的域名 -d *.你的域名 --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory
+</code></pre>
+<ul>
+<li>3、配置解析<br>
+Certbot 要求给域名配置一条 TXT 记录，在没有确认 TXT 记录生效之前不要回车执行。配置好之后就可以看到证书文件被生成。剩下的只需要通过SCP等方法下载就好了。</li>
+<li>4、重要说明<br>
+上述有三个交互式的提示：</li>
+</ul>
+<blockquote>
+<p>是否同意 Let's Encrypt 协议要求<br>
+询问是否对域名和机器（IP）进行绑定<br>
+输入邮箱，给你发送一封验证邮件<br>
+确认同意才能继续。</p>
+</blockquote>
+<ul>
+<li>5、证书更新<br>
+证书有效期为三个月，到期之前需要更新证书，更新流程就是重新执行一遍上面的操作，新证书会在你申请证书的日期上加三个月。</li>
+</ul>
+<h2 id="使用-freessl">使用 <a href="https://freessl.cn/">Freessl</a></h2>
+<p>Freessl 是一个申请免费证书的网站，如果觉得自己敲代码太麻烦，可以使用这个网站获取SSL证书。网站提供TrustAsia和Let's Encrypt两种证书选择。获取证书的操作也比较的简单，按照步骤一直下一步就可以了，没有什么学习成本。<br>
+值得一提的是，通过网站获取的通配符证书有效期也是三个月。如果到期之后，网站也提供了自动续期的功能，不过是需要收费的。</p>
+
+                          </div>
+                        </div>
+                        <div class="layout-post-social">
+                          <div class="layout-social-item">
+                            <div id="/post/lets-encrypt-ssl/" class="leancloud-visitors view"
+                              data-flag-title="关于免费通配符证书">
+                              <span class="post-meta-item-text">阅读 </span>
+                              <span class="leancloud-visitors-count"></span>
+                            </div>
+                          </div>
+                        </div>
+    
+                        <div class="layout-post-navigation">
+                          <div class="row">
+                            
+                            <div class="post-card col-6">
+                              <a href="https://nuoea.com/post/asrock-itx-hackintosh" class="post-link">
+                                <div class="thumb" style="background-image: url('https://cdn.nuoea.com/19-11-4/6.jpg');"></div>
+                                <span class="btn-prev"><i class="fa fa-angle-left" aria-hidden='true'></i></span>
+                                <div class="thumb-mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-card col-6">
+                              <a href="https://nuoea.com/post/replace-image-space" class="post-link">
+                                <div class="thumb" style="background-image: url('https://cdn.nuoea.com/18-11-22/1.jpg');"></div>
+                                <span class="btn-next"><i class="fa fa-angle-right" aria-hidden='true'></i></span>
+                                <div class="thumb-mask"></div>
+                              </a>
+                            </div>
+                            
+                          </div>
+                        </div>
+    
+                        <div class="layout-comments"></div>
+                        
+                        <script type="text/javascript" src='https://nuoea.com/media/scripts/zan.js'></script>
+<script type="text/javascript" src='https://nuoea.com/media/scripts/av-min.js'></script>
+<script type="text/javascript" src='https://nuoea.com/media/scripts/Valine.min.js'></script>
+
+<script>
+  var valine = new Valine();
+  valine.init({
+    el: '.layout-comments',
+    appId: 'e7hSFIsJCyJg2uaQaYDWtesc-MdYXbMMI',
+    appKey: 'LsdlyJ6vfXjJAk3JYASt5KJ4',
+    notify: false,
+    verify: false,
+    visitor: true,
+    avatar: 'mp',
+    placeholder: '加入讨论...'
+  })
+</script>
+                        
+                      </div>
+                    </div>
+    
+                    <div class="col-md-12 col-lg-2 d-none d-lg-block">
+                      <div class="layout-post-sidebar">
+                        <div class="layout-sidebar-item">
+                          <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E8%AF%B4%E6%98%8E">说明</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8-certbot">使用 certbot</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8-freessl">使用 Freessl</a></li>
+</ul>
+</li>
+</ul>
+
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+
+    	<div class="layout-footer">
+
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+					<div class="footer">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="footer-copy">
+									
+									<span>© 2016 </span>
+									<a href="https://nuoea.com" title="有呀">有呀</a>
+									<span class="px-2">⋅</span>
+									
+									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> And <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">又拍云</a>
+									<span class="px-2">⋅</span>
+									
+									<span>鄂ICP备16014179号 </span>
+									
+								</div>
+							</div>
+							<div class="col-sm-3 d-none d-md-block">
+								<div class="footer-links">
+									
+									
+									
+									
+									<span class="footer-links-item">
+										<a href="https://github.com/insdram" target="_blank">
+											<i class="fa fa-github" aria-hidden="true"></i>
+										</a>
+									</span>
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src='https://nuoea.com/media/scripts/main.js'></script>
+	
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?b38914af394e7e51bb959b2a1cf39db4";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	
+
+  </div>
+</body>
+
+</html>

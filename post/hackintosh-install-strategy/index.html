@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+<title>Hackintosh 安装全攻略 - 有呀</title>
+<meta name="description" content="什么都有一点">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link type='text/css' rel='stylesheet' href='https://nuoea.com/styles/main.css' media='screen' />
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src='https://nuoea.com/media/scripts/jquery.js'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+
+<script >hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+  <div class="layout">
+    <div class="layout-header">
+
+	<div class="layout-header-main">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+
+					<div class="navbar">
+
+						<div class="logo">
+							<a href="https://nuoea.com">
+								<img class="logo" src="https://nuoea.com/media/images/site_avatar.png?v=1576547184813"
+									alt="">
+							</a>
+						</div>
+
+						<div class="menu d-md-inline-block d-none">
+							<ul class="layout-navigation-list">
+								
+								<li class="layout-navigation-item"><a title="首页"
+										href="/">首页</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="关于"
+										href="/post/about">关于</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="归档"
+										href="/archives">归档</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="链接"
+										href="/links">链接</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						
+						<div class="item d-md-inline-block d-none">
+							<a class="btn" href="/atom.xml">
+								订 阅
+							</a>
+						</div>
+						
+
+						<div class="nav d-md-none d-inline-block">
+							<div class="trigger">
+								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+</div>
+    <div class="layout-collapse d-md-none">
+	<div class="layout-collapse-main">
+		<ul class="layout-collapse-list">
+			
+			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
+			
+			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
+			
+			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
+			
+			<li class="layout-collapse-item"><a title="链接" href="/links">链接</a></li>
+			
+
+		</ul>
+	</div>
+</div>
+
+    <div class="layout-content">
+      <div class="layout-content-main">
+        <div class="container">
+          <div class="row justify-content-lg-center">
+            <div class="col-12 col-lg-9">
+              <div class="layout-post">
+                <div class="layout-post-body">
+                  <div class="row">
+    
+                    <div class="col-md-12 col-lg-10">
+                      <div class="layout-post-main m-right m-md-right">
+                        <div class="layout-post-header">
+                          <h1 class="layout-post-title">Hackintosh 安装全攻略</h1>
+                          <div class="layout-post-meta">
+                            <div class="item">
+                               <a href="https://nuoea.com/tag/making" class="post--keyword"
+                                data-title="折腾" data-type="post_tag" data-term-id="39">折腾</a>
+                              
+                            </div>
+                            <div class="item">
+                              <span>2019-11-21</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="layout-post-content">
+                          <div class="layout-post-item">
+                             
+                              <p class="with-img"><img src="https://cdn.nuoea.com/19-11-21/1.jpg" class="attachment-full size-full wp-post-image" alt="Hackintosh 安装全攻略" /></p>
+                            
+                            <h2 id="写在前面">写在前面</h2>
+<p>感觉现在已经离不开 <code>macOS</code> 了。因为手里的这台15款的Macbook Pro 什么都好，就是性能已经慢慢的跟不上我的要求，所以折腾了一台 Hackintosh ，配置之前也发出来了--<a href="https://nuoea.com/post/asrock-itx-hackintosh/">我的配置</a>。然后就有小伙伴要求写个教程。我就想整理一下，尽可能全面的从硬件的选购到整个装机点亮的过程都记录下来。希望可以给想折腾的小伙伴一点参考。</p>
+<!-- more -->
+<h2 id="硬件指南">硬件指南</h2>
+<p>选对的合适的硬件，那么 <code>Hackintosh</code> 就已经成功了90%以上。选对硬件，意味着安装时可以少走弯路，新手也能很轻松的折腾，不仅可以节省大量的时间成本，而且在使用的过程中也可以获得更加完整、稳定的体验。升级起来，也不需要每次都费劲功夫的折腾驱动，非常省心。</p>
+<p>就目前而言，能够比较稳定使用的配置是：</p>
+<ul>
+<li>Intel 1151针的 第八代、第九代酷睿处理器。<code>免驱</code></li>
+<li>市面上主流的华硕、技嘉、华擎、微星主板。<code>缩水版除外</code></li>
+<li>AMD 的Radeon VII系列、Vega系列、RX系列显卡。<code>免驱</code></li>
+<li>主流 M.2接口支持NVME协议的固态硬盘。<code>免驱</code></li>
+<li>4k分辨率、5k分辨率的显示器。<code>体验最好</code></li>
+<li>苹果Mac拆机或者同款的蓝牙WiFi二合一无线网卡。<code>免驱</code></li>
+<li>主流的DDR4内存条。<code>越大越好</code></li>
+<li>电源机箱别贪便宜，特别是电源千万不能缩水。<code>功率要足</code></li>
+</ul>
+<p>基本上 Hackintosh 的配置就从上面的选购指南中挑选就行了，只要不买一些冷门小众的品牌，不会有太大的问题。当然也会有人说，我不喜欢AMD的显卡，我就想用英伟达的显卡做双系统可不可以。答案是可以。但是英伟达的显卡目前不支持升级到 <code>MacOS Mojave 10.14.0</code>以上。只能停留在 <code>10.13.6</code> 这个版本。所以不介意自己不能使用最新版的同学可以选择N卡。</p>
+<h2 id="前期准备">前期准备</h2>
+<ul>
+<li>进入主板BIOS设置，将”安全启动”关闭,将”传统模式”打开。</li>
+<li>一个空白的U盘，8G以上的容量。</li>
+<li>一个已经制作好带CLover引导工具的安全镜像（.dmg格式）。这里提供一个10.14.6的镜像--<a href="https://pan.baidu.com/s/1yx7A_wlfepp6ybTCRcz4cg">下载提取码：qrwt</a></li>
+<li>Win 平台需要镜像写入软件：TransMac。</li>
+<li>Mac 平台需要镜像写入软件：Etcher。</li>
+</ul>
+<h2 id="写入镜像">写入镜像</h2>
+<h3 id="win-平台">Win 平台</h3>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-11-21/2.jpg" alt=""></figure>
+<p>写入镜像</p>
+<ul>
+<li>打开 <code>TransMac</code> 软件，插入空白U盘。</li>
+<li>右键单击U盘 选 <code>Format Disk For Mac</code> 格式化U盘。</li>
+<li>然后再次右键单击U盘，选中 <code>Restore with Disk Image</code> ，然后选择下载好的安装镜像写入U盘。</li>
+</ul>
+<h3 id="mac-平台">Mac 平台</h3>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/19-11-21/3.png" alt=""></figure>
+<p>写入镜像</p>
+<ul>
+<li>打开 <code>Etcher</code> 软件。插入空白U盘。</li>
+<li>在 <code>Etcher</code> 中选中自动识别出来的U盘，点击 <code>Flash</code> 即可。</li>
+</ul>
+<p>制作好了安装U盘之后，就可以开始正式安装了。</p>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nuoea.com/19-11-21/4.png" alt=""></figure>
+<p>clover 引导工具界面</p>
+<ul>
+<li>首先重启电脑。</li>
+<li>插入已经写好镜像的U盘。开机选择从U盘启动。这个时候我们会进入到 <code>clover</code> 的引导界面。</li>
+<li>移动光标到 <code>Boot OS X Install</code> 安装盘。然后敲击 <code>空格键</code> 。</li>
+<li>用方向键与回车选中 <code>Verbose(-v)</code> 。</li>
+<li>再用方向键和回车选择 <code>Boot macOS with selected options</code> 。</li>
+<li>等待进入安装界面。</li>
+</ul>
+<h2 id="安装详细">安装详细</h2>
+<figure data-type="image" tabindex="4"><img src="https://cdn.nuoea.com/19-11-21/5.png" alt=""></figure>
+<p>语言选择</p>
+<figure data-type="image" tabindex="5"><img src="https://cdn.nuoea.com/19-11-21/6.png" alt=""></figure>
+<p>出现macOS实用工具界面,选择磁盘工具</p>
+<figure data-type="image" tabindex="6"><img src="https://cdn.nuoea.com/19-11-21/7.png" alt=""></figure>
+<p>选择 <code>SSD</code>,点击抹掉按钮,选择默认的 <code>Mac OS扩展(日志型)</code> ,将名称修改为 <code>Macintosh HD</code> ,点击 <code>抹掉</code> 按钮</p>
+<figure data-type="image" tabindex="7"><img src="https://cdn.nuoea.com/19-11-21/8.png" alt=""></figure>
+<p>抹盘成功后,它会自动生成一个200MB的EFI分区，用来存放我们的引导文件</p>
+<figure data-type="image" tabindex="8"><img src="https://cdn.nuoea.com/19-11-21/9.png" alt=""></figure>
+<p>到这里,磁盘工具的动作就已经结束了.退出磁盘工具进入安装界面,进行系统的安装了</p>
+<figure data-type="image" tabindex="9"><img src="https://cdn.nuoea.com/19-11-21/10.png" alt=""></figure>
+<p>进入安装界面</p>
+<figure data-type="image" tabindex="10"><img src="https://cdn.nuoea.com/19-11-21/11.png" alt=""></figure>
+<p>选择继续</p>
+<figure data-type="image" tabindex="11"><img src="https://cdn.nuoea.com/19-11-21/12.png" alt=""></figure>
+<p>点击同意,选择Macintosh HD</p>
+<figure data-type="image" tabindex="12"><img src="https://cdn.nuoea.com/19-11-21/13.png" alt=""></figure>
+<p>等它装完，期间会自动重启几次。在重启的时候还是要选择从U盘开机。选择继续安装。</p>
+<figure data-type="image" tabindex="13"><img src="https://cdn.nuoea.com/19-11-21/15.png" alt=""></figure>
+<p>大功告成！</p>
+<figure data-type="image" tabindex="14"><img src="https://cdn.nuoea.com/19-11-21/14.png" alt=""></figure>
+<h2 id="性能优化">性能优化</h2>
+<p>安装好了镜像，成功进入mac界面并不是结束。这个时候我们还需要替换适合自己硬件的EFI引导文件到系统的EFI分区，来驱动我们的硬件。</p>
+<p>这里有一份 Hackintosh 长期维护的机型名单，可以在上面找到适合自己的 EFI 文件夹。</p>
+<blockquote>
+<p><a href="https://github.com/daliansky/Hackintosh">长期维护名单</a></p>
+</blockquote>
+<p>打开终端,输入命令: <code>diskutil list</code> ,它会显示类似的信息:</p>
+<pre><code class="language-code">/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +8.0 GB     disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:                  Apple_HFS XiaoMiPro 10131         7.7 GB     disk4s2
+
+/dev/disk5 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +7.0 GB     disk5
+   1:                        EFI EFI                     209.7 MB   disk5s1
+   2:                  Apple_HFS XiaoMiPro 10131         6.7 GB     disk5s2
+</code></pre>
+<p>挂载EFI分区</p>
+<p>我们使用diskutil命令挂载EFI分区，例如这里是：<code>sudo diskutil mount disk5s1</code></p>
+<p>复制/替换EFI</p>
+<p>将下载好的EFI复制到系统SSD的EFI分区下即可。</p>
+<h2 id="最后">最后</h2>
+<figure data-type="image" tabindex="15"><img src="https://cdn.nuoea.com/19-11-21/16.jpg" alt=""></figure>
+<p>EFI目录的结构就是如此。主要的配置项都在 config.plist 文件中。kexts 目录存放的是驱动文件。如果按照给出的标准硬件去配置着台机器的话，其实绝大部分硬件都免驱了，我们只需要几个核心的驱动文件就可以了。</p>
+<ul>
+<li>Clover -- 引导工具 <a href="https://github.com/Dids/clover-builder/releases">下载地址</a></li>
+<li>Lilu -- 核心驱动 <a href="https://github.com/acidanthera/Lilu">下载地址</a></li>
+<li>WhateverGreen -- 显卡相关 <a href="https://github.com/acidanthera/WhateverGreen">下载地址</a></li>
+<li>AppleALC  -- 声卡相关 <a href="https://github.com/acidanthera/AppleALC/tree/master/">下载地址</a></li>
+<li>VirtualSMC  -- 核心驱动 <a href="https://github.com/acidanthera/VirtualSMC/releases">下载地址</a></li>
+</ul>
+<p>当然，如果已经在上面的 <code>长期维护的机型名单</code>中，找到了自己的配置。那么就不需要自己再去折腾这些了， 直接下载下来替换就能起飞了。就写到这里吧。</p>
+
+                          </div>
+                        </div>
+                        <div class="layout-post-social">
+                          <div class="layout-social-item">
+                            <div id="/post/hackintosh-install-strategy/" class="leancloud-visitors view"
+                              data-flag-title="Hackintosh 安装全攻略">
+                              <span class="post-meta-item-text">阅读 </span>
+                              <span class="leancloud-visitors-count"></span>
+                            </div>
+                          </div>
+                        </div>
+    
+                        <div class="layout-post-navigation">
+                          <div class="row">
+                            
+                            <div class="post-card col-6">
+                              <a href="https://nuoea.com/post/folding-screens-next-phone" class="post-link">
+                                <div class="thumb" style="background-image: url('https://cdn.nuoea.com/19-11-25/1.jpg');"></div>
+                                <span class="btn-prev"><i class="fa fa-angle-left" aria-hidden='true'></i></span>
+                                <div class="thumb-mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-card col-6">
+                              <a href="https://nuoea.com/post/days-of-thorns" class="post-link">
+                                <div class="thumb" style="background-image: url('https://cdn.nuoea.com/19-11-20/3.jpg');"></div>
+                                <span class="btn-next"><i class="fa fa-angle-right" aria-hidden='true'></i></span>
+                                <div class="thumb-mask"></div>
+                              </a>
+                            </div>
+                            
+                          </div>
+                        </div>
+    
+                        <div class="layout-comments"></div>
+                        
+                        <script type="text/javascript" src='https://nuoea.com/media/scripts/zan.js'></script>
+<script type="text/javascript" src='https://nuoea.com/media/scripts/av-min.js'></script>
+<script type="text/javascript" src='https://nuoea.com/media/scripts/Valine.min.js'></script>
+
+<script>
+  var valine = new Valine();
+  valine.init({
+    el: '.layout-comments',
+    appId: 'e7hSFIsJCyJg2uaQaYDWtesc-MdYXbMMI',
+    appKey: 'LsdlyJ6vfXjJAk3JYASt5KJ4',
+    notify: false,
+    verify: false,
+    visitor: true,
+    avatar: 'mp',
+    placeholder: '加入讨论...'
+  })
+</script>
+                        
+                      </div>
+                    </div>
+    
+                    <div class="col-md-12 col-lg-2 d-none d-lg-block">
+                      <div class="layout-post-sidebar">
+                        <div class="layout-sidebar-item">
+                          <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2">写在前面</a></li>
+<li><a href="#%E7%A1%AC%E4%BB%B6%E6%8C%87%E5%8D%97">硬件指南</a></li>
+<li><a href="#%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87">前期准备</a></li>
+<li><a href="#%E5%86%99%E5%85%A5%E9%95%9C%E5%83%8F">写入镜像</a>
+<ul>
+<li><a href="#win-%E5%B9%B3%E5%8F%B0">Win 平台</a></li>
+<li><a href="#mac-%E5%B9%B3%E5%8F%B0">Mac 平台</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86">安装详细</a></li>
+<li><a href="#%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96">性能优化</a></li>
+<li><a href="#%E6%9C%80%E5%90%8E">最后</a></li>
+</ul>
+</li>
+</ul>
+
+                        </div>
+                      </div>
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+
+    	<div class="layout-footer">
+
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+					<div class="footer">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="footer-copy">
+									
+									<span>© 2016 </span>
+									<a href="https://nuoea.com" title="有呀">有呀</a>
+									<span class="px-2">⋅</span>
+									
+									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> And <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">又拍云</a>
+									<span class="px-2">⋅</span>
+									
+									<span>鄂ICP备16014179号 </span>
+									
+								</div>
+							</div>
+							<div class="col-sm-3 d-none d-md-block">
+								<div class="footer-links">
+									
+									
+									
+									
+									<span class="footer-links-item">
+										<a href="https://github.com/insdram" target="_blank">
+											<i class="fa fa-github" aria-hidden="true"></i>
+										</a>
+									</span>
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src='https://nuoea.com/media/scripts/main.js'></script>
+	
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?b38914af394e7e51bb959b2a1cf39db4";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+	
+
+  </div>
+</body>
+
+</html>
