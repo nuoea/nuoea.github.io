@@ -2472,7 +2472,12 @@ mark {
 }
 .layout-banner {
   position: relative;
-  margin: 3rem 0 0 !important;
+  margin: 3rem 0 0;
+}
+@media (min-width: 576px) {
+  .layout-banner {
+    margin: 2rem 0 0;
+  }
 }
 .layout-banner .layout-banner-main .banner .item {
   position: relative;
