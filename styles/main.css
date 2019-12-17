@@ -2686,6 +2686,7 @@ mark {
   border-radius: 4px;
   background-position: center;
   background-size: cover;
+  background-color: #F7F8FA;
 }
 .layout-paginator {
   position: relative;
