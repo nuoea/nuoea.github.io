@@ -2130,7 +2130,7 @@ html {
 body {
   margin: 0;
   background-color: #ffffff;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.65);
   font-variant: tabular-nums;
   font-size: 14px;
   font-family: Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
@@ -2816,58 +2816,6 @@ mark {
   margin-top: 0.5rem;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.45);
-}
-.layout-card-links {
-  padding: 24px 24px 0;
-}
-.layout-card-links .layout-card-links-item {
-  position: relative;
-  display: flex;
-  margin: 0 0 24px;
-  padding: 8px;
-  background-color: rgba(0, 0, 0, 0.025);
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  align-items: center;
-}
-.layout-card-links .layout-card-links-item:hover {
-  background-color: #e6f7ff;
-}
-.layout-card-links .layout-card-links-item:hover .layout-links-icon {
-  background-color: #40a9ff;
-}
-.layout-card-links .layout-card-links-item img {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  border-radius: 2px;
-  vertical-align: middle;
-}
-.layout-card-links .layout-card-links-item .layout-links-icon {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  border-radius: 2px;
-  vertical-align: middle;
-  line-height: 36px;
-  text-align: center;
-  background-color: #96beff;
-}
-.layout-card-links .layout-card-links-item .layout-links-icon i {
-  color: #ffffff;
-}
-.layout-card-links .layout-card-links-item span {
-  overflow: hidden;
-  margin: 0 0 0 12px;
-  color: rgba(0, 0, 0, 0.65);
-  vertical-align: middle;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.layout-card-links .layout-card-links-item:hover span {
-  color: #1890ff;
 }
 .layout-post {
   position: relative;
