@@ -2570,7 +2570,7 @@ mark {
   color: rgba(0, 0, 0, 0.45);
 }
 .layout-content {
-  margin: 1rem 0 0;
+  margin: 0 auto;
   padding-top: 0px;
   min-height: 0;
   flex: auto;
@@ -2609,11 +2609,19 @@ mark {
   padding-top: 0.5rem;
 }
 .layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .header .title {
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.65);
+  display: block;
 }
-.layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .header .title:hover {
+.layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .header .title:hover,
+.layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .header .title:focus,
+.layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .header .title:active {
   color: #1890ff;
+}
+.layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .header .title h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
 }
 .layout-content .layout-content-main .card-list .card .card-item .card-content .card-body .inner {
   color: rgba(0, 0, 0, 0.45);
@@ -3003,71 +3011,99 @@ mark {
 .layout-post-navigation {
   position: relative;
   overflow: hidden;
-  margin: 0 0 1.5rem;
+  margin: 0 0 3rem;
 }
 .layout-post-navigation .post-card {
+  padding: 1rem 0;
+}
+.layout-post-navigation .post-card:not(:first-child) {
+  border-top: 1px solid #f4f6f8;
+}
+.layout-post-navigation .post-card .card-content {
   position: relative;
-  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: center;
 }
-.layout-post-navigation .post-card:hover .post-link span {
-  opacity: 1;
+.layout-post-navigation .post-card .card-content .card-body {
+  flex: 1 1 auto;
 }
-.layout-post-navigation .post-card:hover .post-link .thumb-mask {
-  opacity: 0.75;
+.layout-post-navigation .post-card .card-content .card-body .header {
+  padding-top: 0.5rem;
 }
-.layout-post-navigation .post-card .post-link {
-  position: relative;
+.layout-post-navigation .post-card .card-content .card-body .header .title {
   display: block;
 }
-.layout-post-navigation .post-card .post-link .thumb {
-  width: 100%;
-  height: 8rem;
-  border-radius: 2px;
-  background-position: center;
-  background-size: cover;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+.layout-post-navigation .post-card .card-content .card-body .header .title:hover,
+.layout-post-navigation .post-card .card-content .card-body .header .title:focus,
+.layout-post-navigation .post-card .card-content .card-body .header .title:active {
+  color: #1890ff;
 }
-.layout-post-navigation .post-card .post-link span {
-  position: absolute;
-  top: 36%;
-  display: block;
-  opacity: 0;
+.layout-post-navigation .post-card .card-content .card-body .header .title h4 {
   overflow: hidden;
-  margin: 0;
-  width: 32px;
-  height: 32px;
-  color: #ffffff;
-  text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
-  z-index: 999;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
 }
-.layout-post-navigation .post-card .post-link span.btn-prev {
-  left: 8px;
+.layout-post-navigation .post-card .card-content .card-body .inner {
+  color: rgba(0, 0, 0, 0.45);
 }
-.layout-post-navigation .post-card .post-link span.btn-next {
-  right: 8px;
+.layout-post-navigation .post-card .card-content .card-body .inner .abstract {
+  position: relative;
 }
-.layout-post-navigation .post-card .post-link span i {
-  font-size: 24px;
-  vertical-align: middle;
+.layout-post-navigation .post-card .card-content .card-body .inner .abstract h2 {
+  display: none;
 }
-.layout-post-navigation .post-card .post-link .thumb-mask {
+.layout-post-navigation .post-card .card-content .card-body .inner .abstract p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0.5rem 0;
+}
+.layout-post-navigation .post-card .card-content .card-body .inner .abstract photo {
+  display: flex;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+.layout-post-navigation .post-card .card-content .card-body .inner .abstract photo img {
+  padding: 0.5rem;
+  width: 25%;
+  border-radius: 0.75rem;
+}
+.layout-post-navigation .post-card .card-content .card-footer {
+  display: flex;
+}
+.layout-post-navigation .post-card .card-content .card-footer .item {
+  position: relative;
+  margin-right: 1rem;
+  padding-right: 1rem;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45);
+}
+.layout-post-navigation .post-card .card-content .card-footer .item:not(:last-child):after {
+  content: "•";
   position: absolute;
-  top: 0;
-  left: 0;
+  right: -3px;
+  color: #40a9ff;
+}
+.layout-post-navigation .post-card .card-content .card-footer .item a {
+  color: rgba(0, 0, 0, 0.45);
+}
+.layout-post-navigation .post-card .card-content .card-footer .item a:hover {
+  color: #1890ff;
+}
+.layout-post-navigation .post-card .card-thumb {
+  position: relative;
+}
+.layout-post-navigation .post-card .card-thumb a {
+  display: block;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.65);
-  opacity: 0.25;
-  border-radius: 2px;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
+  padding-bottom: 64%;
+  border-radius: 4px;
+  background-position: center;
+  background-size: cover;
 }
 .v {
   text-align: left;
