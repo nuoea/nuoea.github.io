@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nuoea.com</id>
     <title>有呀</title>
-    <updated>2019-12-18T08:49:03.409Z</updated>
+    <updated>2019-12-18T08:51:09.934Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nuoea.com"/>
     <link rel="self" href="https://nuoea.com/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://nuoea.com/post/change-theme-vant">
         </link>
         <updated>2019-12-18T05:39:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>感觉自己还是一个视觉动物。看一个东西久了吧，总是会生出喜新厌旧的情绪。最近工作之余看之前的那套主题越看越觉得不够精致。于是就有想要换掉的冲动。直到最近两天才得了时间，可以落实这个事情。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>感觉自己还是一个视觉动物。看一个东西久了吧，总是会生出喜新厌旧的情绪。最近工作之余看之前的那套主题越看越觉得不够精致。于是就有想要换掉的冲动。直到最近两天才得了时间，可以落实这个事情。</p>
+<!-- more -->
 <h2 id="第一版">第一版</h2>
 <p>关于这套主题，最开始设计的时候还是用的阿里的那套 <code>Ant design</code> 的视觉框架。只是在配色细节上根据略有调整。整体还是依托于那套成熟的视觉效果。</p>
 <figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-12-18/1.jpg" alt=""></figure>
