@@ -2910,7 +2910,8 @@ mark {
   margin: 1em auto;
   max-width: 100%;
   min-width: 100%;
-  border-radius: 2px;
+  border-radius: 4px;
+  background-color: #EBEDF0;
   -webket-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
