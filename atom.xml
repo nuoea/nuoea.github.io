@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nuoea.com</id>
     <title>有呀</title>
-    <updated>2019-12-18T03:23:33.697Z</updated>
+    <updated>2019-12-18T07:47:32.434Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nuoea.com"/>
     <link rel="self" href="https://nuoea.com/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://nuoea.com/images/avatar.png</logo>
     <icon>https://nuoea.com/favicon.ico</icon>
     <rights>All rights reserved 2019, 有呀</rights>
+    <entry>
+        <title type="html"><![CDATA[换了新主题]]></title>
+        <id>https://nuoea.com/post/change-theme-vant</id>
+        <link href="https://nuoea.com/post/change-theme-vant">
+        </link>
+        <updated>2019-12-18T05:39:23.000Z</updated>
+        <content type="html"><![CDATA[<p>感觉自己还是一个视觉动物。看一个东西久了吧，总是会生出喜新厌旧的情绪。最近工作之余看之前的那套主题越看越觉得不够精致。于是就有想要换掉的冲动。直到最近两天才得了时间，可以落实这个事情。</p>
+<h2 id="10版本">1.0版本</h2>
+<p>关于这套主题，最开始设计的时候还是用的阿里的那套 <code>Ant design</code> 的视觉框架。只是在配色细节上根据略有调整。整体还是依托于那套成熟的视觉效果。</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nuoea.com/19-12-18/1.jpg" alt=""></figure>
+<h2 id="20版本">2.0版本</h2>
+<p>因为在使用的过程中可能觉得布局方面还是有些痛点，觉得侧边栏的左右布局不太合适，对于排版方面的可定制程度不够灵活。所以有了这个版本。</p>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nuoea.com/19-12-18/2.png" alt=""></figure>
+<p>在这套主题里面采用了 swiper 控件，流式布局。看起来还是挺大气美观的。只是后来越发的觉得臃肿。毕竟不是做什么资讯站，访问速度也是问题。</p>
+<h2 id="30版本">3.0版本</h2>
+<p>感觉最近还蛮喜欢这种小而美的精致范儿。每个像素每个线条每个颜色都重做了。首页的样式也根据不同的文章类型做了定制区分。整体展示效果应该更好吧。交互方面对移动端的样式做了比较大的修改，增加了可触控的区域，体验方面比之前应该也会更好。</p>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nuoea.com/19-12-18/3.png" alt=""></figure>
+<h2 id="另外">另外</h2>
+<p>这段时间一直没怎么更新，感觉又快一个月了吧。因为毕竟年底了么。也在整理简历啊，工作啊乱七八糟一堆事情。<br>
+最开始的时候，是想用Gridea 做一个展示个人设计作品的站，方便换工作的时候用。最近整理简历，也就顺手把这个站给做了。话说 Gridea 支持上传到自己主机的新版快点上线吧。</p>
+<figure data-type="image" tabindex="4"><img src="https://cdn.nuoea.com/19-12-18/4.png" alt=""></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[折叠屏会是智能设备的下一个形态么]]></title>
         <id>https://nuoea.com/post/folding-screens-next-phone</id>
@@ -984,39 +1007,6 @@ LAN MAC：机器背面的MAC地址即LAN地址，也可以进官方固件查看�
 <p>如果不是为了击败勇士，那我们究竟在做什么。</p>
 </blockquote>
 <p>Run as one ！</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[图床的选择]]></title>
-        <id>https://nuoea.com/post/blog-image-hosting</id>
-        <link href="https://nuoea.com/post/blog-image-hosting">
-        </link>
-        <updated>2017-04-27T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>其实但凡是搭网站、写博客，或者是做设计案例的展示，都需要一个稳定靠谱的地方来存放我们的图片。随着互联网的发展，我们的选择也越来越多，那么如何挑选适合自己的图床就很关键了。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>其实但凡是搭网站、写博客，或者是做设计案例的展示，都需要一个稳定靠谱的地方来存放我们的图片。随着互联网的发展，我们的选择也越来越多，那么如何挑选适合自己的图床就很关键了。</p>
-<!-- more -->
-<p>近几年虽然提供相关服务的网站越来越多，但因为各种各样的原因，收费模式以及网站的稳定性等等，其实大家选择的图床大多就那么几个吧。</p>
-<h2 id="巴巴变">巴巴变</h2>
-<p>这个是阿里早起提供的一个图床服务。其初衷应该是为了方便淘宝店主上传管理自己网店的图片，提供外链服务，但是需要收费。当时用过几个月的时间，其实速度各个方面都还不错，毕竟阿里爸爸的产品。只是后期阿里基于产品的考虑吧，把这个服务并入到淘宝卖家的图床服务中，不再单独对外开放。故放弃。</p>
-<h2 id="又拍">又拍</h2>
-<p>也是一个比较老牌的图床服务网站。在那个时候，算是最专业的那一类图床吧，毕竟除了这个就没有别的业务了。用过一段时间。没啥印象。貌似还行。</p>
-<h2 id="七牛云">七牛云</h2>
-<p>七牛最早出现的时候，就被写博客的小伙伴安利了。最吸引的地方应该是它的收费模式吧，在今天看来依然很良心。可以免费使用的巨大无比的存储空间，一下子就让我放弃了同类的其他产品。一直到今天依然在使用。只是七牛云好是好，就是一直以来都没有很方便的图形界面客户端，用来管理我们的图片素材。在官方的文档中只提供了API接口和终端命令行工具来同步图片，对于没有相关基础的童鞋来说，确实不太友好。不过聊胜于无吧，就这样一直坚持着用了下来。</p>
-<h2 id="最优解">最优解</h2>
-<p>七牛的大存储空间是个天然的优势，那么如何发挥这个优势，让它更有效率就成了最好的选择。无意间我发现了这个工具：</p>
-<blockquote>
-<p><a href="https://jiantuku.com"> 极简图床 </a></p>
-</blockquote>
-<p>它是一款上传非常方便的工具，他的作用就是一个桥梁，把你的图片和你要存储的位置绑定起来，优化整个流程，配合七牛云使用，简单粗暴，非常畅快。同时支持绑定的图床还有微博以及阿里云OSS。</p>
-<p>除此之外，它还提供了有 <code>Chrome</code> 的插件，在浏览网站时发现了任何好的图片素材都可以一键保存到七牛云，及大的优化了整理素材的时间。</p>
-<h2 id="写在最后">写在最后</h2>
-<p>极简图床配合七牛云一起使用，应该可以满足大部分人对于图床的需求了。而且，极简图床还会根据自己的规则去对上传的图片进行重命名，方便管理。规则如下：</p>
-<pre><code>
-&lt;img src=&quot;//url.com/当前日期/随机码.jpg&quot; alt=&quot;&quot; /&gt;
-
-</code></pre>
-<p>当然，如果后期可以自定义规则就更好了。</p>
 ]]></content>
     </entry>
 </feed>
